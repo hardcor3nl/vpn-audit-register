@@ -1,0 +1,96 @@
+slug,name,auditor,date,scope,report_url,source_url
+cyberghost,CyberGhost,Deloitte Audit Romania,2025,Third no-logs audit (ISAE 3000 Revised) of infrastructure and operational systems (blog updated 2026-02-24),https://www.cyberghostvpn.com/deloitte-privacy-policy,https://www.cyberghostvpn.com/privacyhub/privacy-audit-2025/
+cyberghost,CyberGhost,Deloitte Audit Romania,2024,Second no-logs audit,,https://www.cyberghostvpn.com/privacyhub/privacy-audit-2024/
+cyberghost,CyberGhost,Deloitte Audit Romania,,First no-logs audit (date not read),,https://www.cyberghostvpn.com/privacyhub/privacy-audit/
+expressvpn,ExpressVPN,Cure53,2026-05,ExpressMailGuard,https://cure53.de/pentest-report_expressvpn-mailguard_2026.pdf,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2026-05,Identity Defender,https://cure53.de/pentest-report_expressvpn-id-defender_2026.pdf,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2026-04,EventVPN,https://cure53.de/pentest-report_expressvpn-eventvpn.pdf,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2026-03,ExpressKeys security and architecture review,https://cure53.de/pentest-report_expressvpn-expresskeys.pdf,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2026-03,ExpressAI,https://cure53.de/pentest-report_expressvpn-ai_2026.pdf,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,KPMG,2025-06,"Third KPMG audit of privacy commitments / no-logs (TrustedServer), ISAE (UK) 3000 Type 1 as of 28 Feb 2025",https://www.expressvpn.com/blog/kpmg-2025-no-logs-policy-audit/,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2024-11,Aircove routers (second audit),https://cure53.de/pentest-report_expressvpn-aircove_2024.pdf,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2024-10,Lightway VPN protocol (fourth audit),https://cure53.de/pentest-report_expressvpn-lightway_2024.pdf,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Praetorian,2024-09,Lightway VPN protocol (third audit),,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2024-06,Browser extension (second audit),,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Unspecified (listed as Windows app audit),2024-04,"Windows app, confirm remediation of DNS issue related to split tunneling",,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,KPMG,2023-12,Privacy policy claims,https://www.expressvpn.com/security-audit-reports/kpmg-privacy-policy-2023,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-11,Lightway (second audit),,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-10,ExpressKeys browser extension,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-10,ExpressVPN browser extension,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,KPMG,2022-09,No-logs policy,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-09,iOS app,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-08,Android app,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-08,Linux app,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-07,macOS app,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-07,Aircove router,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2022-05,TrustedServer in-house VPN server technology,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,F-Secure,2022-04,Windows v12 app,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,F-Secure,2022-03,Windows v10 app,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2021-08,Lightway VPN protocol,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,PwC Switzerland,2020-06,Build verification process,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,PwC Switzerland,2019-06,Privacy policy compliance and TrustedServer technology,,https://www.expressvpn.com/trust
+expressvpn,ExpressVPN,Cure53,2018-11,Browser extension,,https://www.expressvpn.com/trust
+hide-me,hide.me,Securitum,2024-06-07,"No-logs policy compliance audit (Securitum). Report read 2026-09-29: document date 07.06.2024, fieldwork 19.03.2024-06.06.2024, state of product as of 15.03.2024; confirmed no-logs policy applied, no issues found on the sampled VPN container.",https://hide.me/downloads/Securitum_Hide.me_no-log-policy_20240607.pdf,https://hide.me/en/about
+hotspot-shield,Hotspot Shield,Aon,2023-08-25,"Technical assessment of Hotspot Shield VPN (free and paid tiers, client and server side) validating the privacy policy's data collection/logging claims; included review of a 2022 law-enforcement transparency report, logging data from a test VPN node, staff interviews and client testing. Summary report only.",https://www.hotspotshield.com/reports/Pango_HotSpot%20Shield_VPN_Privacy_Policy_Review_Summary_Report.pdf,https://www.hotspotshield.com/security-audit/
+ipvanish,IPVanish,"Schellman Compliance, LLC",2025-04,No-logs policy compliance audit; full report available in account portal Security Reports,,https://www.ipvanish.com/trust/
+ipvanish,IPVanish,Leviathan Security Group,2022-04,No-traffic-logs privacy policy compliance audit,,https://www.ipvanish.com/blog/ipvanish-no-logs-vpn-audit-2022/
+ivpn,IVPN,Cure53,2019-03-21,No-logs claims verification of VPN gateways (audit March 2019),https://cure53.de/audit-report_ivpn.pdf,https://www.ivpn.net/blog/ivpn-no-logging-claim-verified-by-independent-audit/
+ivpn,IVPN,Cure53,2020-01-23,"Public VPN infrastructure, internal backend servers, pen test of public web servers (Nov-Dec 2019)",https://cure53.de/summary-report_ivpn_2019.pdf,https://www.ivpn.net/blog/independent-security-audit-concluded/
+ivpn,IVPN,Cure53,2021-03-12,IVPN desktop apps (new codebase) plus iOS and Android apps,https://cure53.de/pentest-report_IVPN.pdf,https://www.ivpn.net/blog/ivpn-apps-security-audit-concluded/
+ivpn,IVPN,Cure53,2023-03-15,"New VPN gateway server infrastructure (6 days, Feb 2023)",https://cure53.de/pentest-report_IVPN_2023.pdf,https://www.ivpn.net/blog/ivpn-infrastructure-audit-concluded/
+ivpn,IVPN,Cure53,2024-04-11,"Web UI, backend, API endpoints, web servers (sixth annual audit)",https://cure53.de/pentest-report_IVPN_2024.pdf,https://www.ivpn.net/blog/ivpn-sixth-security-audit-concluded/
+mullvad,Mullvad VPN,Leviathan Security Group,2026-06-01,"MASA (mobile app security assessment) of Android app, second pass",https://mullvad.net/en/blog/2026-security-assessment-of-our-android-app,https://mullvad.net/en/blog/2026-security-assessment-of-our-android-app
+mullvad,Mullvad VPN,Assured Security Consultants,2026-03-06,Audit of GotaTun (WireGuard implementation used in Android app),https://mullvad.net/en/blog/a-security-audit-of-gotatun-is-now-available,https://mullvad.net/en/blog/a-security-audit-of-gotatun-is-now-available
+mullvad,Mullvad VPN,X41 D-Sec GmbH,2026-01-21,White-box source code audit of payment and account API and backend services,https://mullvad.net/en/blog/new-security-audit-of-account-and-payment-services,https://mullvad.net/en/blog/new-security-audit-of-account-and-payment-services
+mullvad,Mullvad VPN,Assured,2025-10-23,"Assessment of web app; no critical/high/medium issues, one low fixed",https://mullvad.net/en/blog/independent-security-audit-of-our-web-app-completed-by-assured,https://mullvad.net/en/blog/independent-security-audit-of-our-web-app-completed-by-assured
+mullvad,Mullvad VPN,NCC Group,2025-03-27,MASA of Android app (version 2024.9),https://mullvad.net/en/blog/successful-security-assessment-of-our-android-app,https://mullvad.net/en/blog/successful-security-assessment-of-our-android-app
+mullvad,Mullvad VPN,Not stated on listing (third-party),2024-12-11,Report for 2024 security audit of the Mullvad VPN app,,https://mullvad.net/en/blog/tag/audits
+mullvad,Mullvad VPN,Cure53,2024-06-27,"VPN infrastructure audit (fourth infrastructure audit, 3-14 June 2024)",https://mullvad.net/en/blog/fourth-infrastructure-audit-completed-by-cure53,https://mullvad.net/en/blog/fourth-infrastructure-audit-completed-by-cure53
+mullvad,Mullvad VPN,Radically Open Security,2023-08-09,VPN infrastructure audit (third),https://mullvad.net/en/blog/infrastructure-audit-completed-by-radically-open-security,https://mullvad.net/en/blog/infrastructure-audit-completed-by-radically-open-security
+mullvad,Mullvad VPN,Assured AB,2023-05-16,Leta search service (assessment 2023-03-27 to 2023-03-31),https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service,https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service
+mullvad,Mullvad VPN,Assured AB,2023-02-17,Account and payment services (2022-11-07 to 2022-11-29),,https://mullvad.net/en/blog/tag/audits
+mullvad,Mullvad VPN,Not stated on listing,2022-10-21,Security assessment of Mullvad VPN apps,,https://mullvad.net/en/blog/tag/audits
+mullvad,Mullvad VPN,Assured AB,2022-09-14,Authoritative DNS servers,,https://mullvad.net/en/blog/tag/audits
+mullvad,Mullvad VPN,Assured AB,2022-06-22,VPN server infrastructure; no information leakage or logging of customer data found,,https://mullvad.net/en/blog/tag/audits
+mullvad,Mullvad VPN,Cure53,2021-01-20,First infrastructure audit (completed Dec 2020),,https://mullvad.net/en/blog/tag/audits
+mullvad,Mullvad VPN,Not stated on listing,2020-06-25,Mullvad VPN app audit report,,https://mullvad.net/en/blog/tag/audits
+mullvad,Mullvad VPN,Not stated on listing,2018-09-24,External audit of VPN app version 2018.2,,https://mullvad.net/en/blog/tag/audits
+nordvpn,NordVPN,PricewaterhouseCoopers AG Switzerland,2018,No-logs policy verification (first independent no-logs audit),,https://nordvpn.com/trust/
+nordvpn,NordVPN,PricewaterhouseCoopers AG Switzerland,2020-05-28,"No-logs assurance engagement (expanded scope: obfuscated, Double VPN, P2P servers), ISAE-style assurance report issued 28 May 2020",https://nordvpn.com/blog/nordvpn-audit/,https://nordvpn.com/blog/nordvpn-audit/
+nordvpn,NordVPN,Deloitte (unspecified entity),,"Third no-logs review; vendor page says reviews 1-2 were PwC and later ones Deloitte, third date not stated",,https://nordvpn.com/features/no-log-vpn/
+nordvpn,NordVPN,Deloitte,2023,Fourth no-logs review,,https://nordvpn.com/features/no-log-vpn/
+nordvpn,NordVPN,Deloitte Audit Lithuania,2024,"Fifth no-logs/assurance report on IT system configuration, infrastructure and no-logs claims (ISAE 3000 Revised); blog says commissioned end of 2024",https://nordvpn.com/blog/nordvpn-no-logs-audit-2024/,https://nordvpn.com/blog/nordvpn-no-logs-audit-2024/
+nordvpn,NordVPN,Deloitte,2025,Sixth no-logs review,,https://nordvpn.com/features/no-log-vpn/
+pia,Private Internet Access,Deloitte Audit Romania,2025,"Third ISAE 3000 (Revised) assurance audit of VPN configuration, operations, token-based dedicated IP system, incident response (blog updated 2026-02-24)",https://www.privateinternetaccess.com/deloitte-privacy-policy,https://www.privateinternetaccess.com/blog/security-audit-2025/
+pia,Private Internet Access,Deloitte,2024,Second no-logs assurance audit,,https://www.privateinternetaccess.com/blog/security-audit-2024
+pia,Private Internet Access,Deloitte,2022,First no-logs assurance audit,,https://www.privateinternetaccess.com/blog/security-audit-2025/
+proton-vpn,Proton VPN,Securitum,2026,No-logs audit (fifth consecutive annual),,https://protonvpn.com/blog/no-logs-audit
+proton-vpn,Proton VPN,Securitum,2025,No-logs audit,,https://protonvpn.com/blog/no-logs-audit
+proton-vpn,Proton VPN,Securitum,2024,No-logs audit,,https://protonvpn.com/blog/no-logs-audit
+proton-vpn,Proton VPN,Securitum,2023,No-logs audit,,https://protonvpn.com/blog/no-logs-audit
+proton-vpn,Proton VPN,Securitum,2022,No-logs audit,,https://protonvpn.com/blog/no-logs-audit
+proton-vpn,Proton VPN,Securitum,unspecified,Security audit of all Proton apps,,https://protonvpn.com/blog/no-logs-audit
+proton-vpn,Proton VPN,Ruben Santamarta (independent researcher),2025-12,App security audits (article updated 1 Dec 2025),,https://protonvpn.com/blog/open-source
+purevpn,PureVPN,Altius IT,2019,"No-logs verification: browsing activity, connection logs/assigned VPN IPs, originating IPs, timestamps, DNS queries; review of infrastructure documents, configs and log files",,https://proprivacy.com/privacy-news/purevpn-puts-its-no-logs-claims-to-the-test-with-independent-audit
+purevpn,PureVPN,KPMG (named in vendor's privacy policy as 'KPMG-Audited No-Logs Network'; vendor's audit pages render the name as 'Well known audit firm'),,"Second no-logs audit, 'always-on' arrangement permitting surprise audits. Date conflict: vendor blog carries an 'Update - October 24, 2020' note about a second audit; XDA article about the KPMG audit dated 2021-08-16. Not resolved.",,https://www.xda-developers.com/purevpn-kpmg-audit/
+purevpn,PureVPN,"Not named on the assessment page (vendor's privacy policy refers to a 'KPMG-Audited No-Logs Network'; vendor blog URL suggests KPMG validated the claims, not read)",2023-02-16/2023-02-22 (fieldwork); post-assessment validation March-April 2023,"Assessment of VPN infrastructure compliance with the privacy policy, per vendor's no-log assessment page",,https://www.purevpn.com/no-log-assessment
+surfshark,Surfshark,Deloitte,2025,No-logs assurance report (full report only in Surfshark account),,https://surfshark.com/trust-center
+surfshark,Surfshark,Deloitte,2023,No-logs assurance report (full report only in Surfshark account),,https://surfshark.com/trust-center
+surfshark,Surfshark,Cure53,2026,Infrastructure and new Dausos protocol (report-to-year mapping inferred from page order),https://surfshark.com/media/NOR-29-summary.pdf,https://surfshark.com/trust-center
+surfshark,Surfshark,SecuRing,2025-12,Network infrastructure audit,https://surfshark.com/media/SurfShark-InfrastructureTestReport_20251217_Public.pdf,https://surfshark.com/trust-center
+surfshark,Surfshark,SecuRing,2025,"Web, desktop, mobile apps and browser plugins security assessment (attestation letter dated 2025-06-09 in filename)",https://surfshark.com/media/attestation_letter_20250609-sig.pdf,https://surfshark.com/trust-center
+surfshark,Surfshark,Cure53,2021,Infrastructure,https://surfshark.com/wp-content/uploads/2021/05/SRF-02-summary.pdf,https://surfshark.com/trust-center
+surfshark,Surfshark,Cure53,2018,Browser extensions,https://cure53.de/pentest-report_surfshark.pdf,https://surfshark.com/trust-center
+tunnelbear,TunnelBear,Cure53,2017-08-07,First public consumer VPN audit (blog date),https://cure53.de/summary-report_tunnelbear.pdf,https://www.tunnelbear.com/blog/tunnelbear_public_security_audit/
+tunnelbear,TunnelBear,Cure53,2018-10-23,2nd annual audit (blog date),https://cure53.de/summary-report_tunnelbear_2018.pdf,https://www.tunnelbear.com/blog/tunnelbear-completes-2nd-annual-independent-security-audit/
+tunnelbear,TunnelBear,Cure53,2020-01-28,3rd annual audit (blog date),https://cure53.de/summary-report_tunnelbear_2019.pdf,https://www.tunnelbear.com/blog/tunnelbear-completes-3rd-annual-independent-public-security-audit/
+tunnelbear,TunnelBear,Cure53,2021-05-31,4th annual audit (blog date),https://cure53.de/pentest-report_tunnelbear_2020.pdf,https://www.tunnelbear.com/blog/tunnelbears-annual-security-audit-results-for-2020/
+tunnelbear,TunnelBear,Cure53,2022-07-08,5th annual audit (blog date),https://cure53.de/pentest-report_tunnelbear_2021.pdf,https://www.tunnelbear.com/blog/tunnelbear-completes-5th-annual-independant/
+tunnelbear,TunnelBear,Cure53,2023-05-19,6th annual audit (blog date),https://cure53.de/pentest-report_tunnelbear_2022.pdf,https://www.tunnelbear.com/blog/tunnelbear-completes-6th-annual-independent-security-audit/
+tunnelbear,TunnelBear,Cure53,2024-02-14,"7th annual audit, 2023 work Oct-Dec: apps, website, VPN infrastructure, backend (43 days)",https://cure53.de/pentest-report_tunnelbear_2023.pdf,https://www.tunnelbear.com/blog/tunnelbear-completes-7th-annual-independent-security-audit/
+tunnelbear,TunnelBear,Cure53,2025-11-24,"8th annual audit, 2024 work Oct-Nov: apps, backend, APIs, data handling (44 days); report link not on post",,https://www.tunnelbear.com/blog/tunnelbear-completes-8th-annual-independent-security-audit/
+vyprvpn,VyprVPN,Leviathan Security Group,,"No-log assessment of VyprVPN service (interviews, config review, test traffic, production endpoint); found kill-switch API logs containing user IPs, later remediated per Golden Frog",https://www.goldenfrog.com/vyprvpn/audit.pdf,https://www.vyprvpn.com/blog/post/no-log-vpn-service
+windscribe,Windscribe,Leviathan Security Group,2021-09,Desktop app code audit,https://github.com/Windscribe/Desktop-App/wiki/Code-Audit-Report,https://windscribe.com/knowledge-base/articles/has-windscribe-been-audited
+windscribe,Windscribe,Leviathan Security Group,2022-03,Android and iOS apps,https://github.com/Windscribe/Android-App/wiki/Code-Audit-Report,https://windscribe.com/knowledge-base/articles/has-windscribe-been-audited
+windscribe,Windscribe,Cure53,2022-12-11,Windscribe stack audit (date from report filename; superseded by 2024 audit per Windscribe),https://windscribe.com/blog/content/files/2024/07/2022-12-11---Windscribe---Cure53.pdf,https://windscribe.com/blog/freshscribe-next-generation-vpn-infrastructure-2/
+windscribe,Windscribe,Packetlabs,2024-06,"FreshScribe VPN stack (provisioning, RAM-disk VPN servers, micro-services)",,https://windscribe.com/knowledge-base/articles/has-windscribe-been-audited

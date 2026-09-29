@@ -1,0 +1,65 @@
+slug,name,term,currency,price_per_month,total_charged_upfront,billed_months,note,source_url
+airvpn,AirVPN,1-month,EUR,,,1,"Price not verified: airvpn.org/plans is JS-rendered behind a cookie/JS gate. Secondary sources say AirVPN offers plans from 3 days to 3 years, EUR only.",https://airvpn.org/plans/
+airvpn,AirVPN,1-year (billing period not verified),EUR,,,,Price not verified (see 1-month).,https://airvpn.org/plans/
+airvpn,AirVPN,2-year (billing period not verified),EUR,,,,Offer existence per secondary source only (comparitech coupon article mentions 2-year and 3-year plans); price not verified.,https://airvpn.org/plans/
+astrill,Astrill VPN,1-month,USD,30,30,1,"Personal plan as shown on pricing page HTML fetched 2026-09-28. Page also displayed a banner 'Your reseller coupon has been activated' (possibly template text), so shown prices may include a coupon discount; renewal price not stated on page.",https://www.astrill.com/pricing
+astrill,Astrill VPN,12-month,USD,15,180,12,Shown as $180 with $360 struck through (label 'Save 50%'); same coupon caveat as 1-month.,https://www.astrill.com/pricing
+astrill,Astrill VPN,24-month,USD,12.5,300,24,"Shown as $300 with $720 struck through (label 'Save 58%', 'Most popular'); same coupon caveat.",https://www.astrill.com/pricing
+atlas-vpn,Atlas VPN,1-month,USD,,,1,Service closed 2024-04-24; no longer sold. Existing subscribers were moved to NordVPN for the remainder of their term.,https://nordsecurity.com/blog/announcement-on-atlas-vpn
+atlas-vpn,Atlas VPN,1-year (not verified),USD,,,,Service closed; no longer sold.,https://nordsecurity.com/blog/announcement-on-atlas-vpn
+atlas-vpn,Atlas VPN,2-year (not verified),USD,,,,Service closed; no longer sold.,https://nordsecurity.com/blog/announcement-on-atlas-vpn
+cyberghost,CyberGhost,1-month,USD,12.99,12.99,1,"USD price list, read 2026-09-29: $12.99, auto-renews monthly. The EUR list read the same day shows EUR 11.99 (see EUR rows). Previously recorded as 'Auto-renews at $12.99 monthly'.",https://www.cyberghostvpn.com/en_US/pricing
+cyberghost,CyberGhost,1-year (not verified),USD,,,,No 1-year plan on pricing page (6-month at $6.99/mo and 2-year+ offered),https://www.cyberghostvpn.com/en_US/pricing
+cyberghost,CyberGhost,26-month,USD,2.19,56.94,26,"USD price list, read 2026-09-29: $2.19/mo, billed $56.94 for the first 26 months, then renews at $56.94 annually. The EUR list shows the same numerals (EUR rows).",https://www.cyberghostvpn.com/en_US/pricing
+cyberghost,CyberGhost,6-month,USD,6.99,41.94,6,"USD price list, read 2026-09-29: $6.99/mo, $41.94, renews at $41.94 every 6 months; 45-day guarantee.",https://www.cyberghostvpn.com/en_US/pricing
+cyberghost,CyberGhost,1-month,EUR,11.99,11.99,1,"EUR price list, read 2026-09-29 (page states 'all amounts shown are in Euros'): EUR 11.99, renews monthly.",https://www.cyberghostvpn.com/en_US/pricing
+cyberghost,CyberGhost,6-month,EUR,6.99,41.94,6,"EUR price list, read 2026-09-29: EUR 6.99/mo, EUR 41.94, renews at EUR 41.94 every 6 months.",https://www.cyberghostvpn.com/en_US/pricing
+cyberghost,CyberGhost,26-month,EUR,2.19,56.94,26,"EUR price list, read 2026-09-29: EUR 2.19/mo, EUR 56.94 for the first 26 months, renews at EUR 56.94 annually.",https://www.cyberghostvpn.com/en_US/pricing
+expressvpn,ExpressVPN,1-month,USD,,,1,Not retrieved: pricing page renders only the 2-year tab in static HTML,https://www.expressvpn.com/order
+expressvpn,ExpressVPN,1-year (not verified),USD,,,,Not retrieved: pricing page renders only the 2-year tab in static HTML,https://www.expressvpn.com/order
+expressvpn,ExpressVPN,28-month,USD,2.99,83.72,28,"Basic tier promo: $83.72 for first 28 months (2 years + 4 months); renews at $99.95 annually (Advanced $4.49/mo promo, renews $119.95/yr; Pro $7.49/mo promo, renews $199.95/yr)",https://www.expressvpn.com/order
+hide-me,hide.me,1-month,USD,11.99,11.99,1,Monthly; vendor states plan renews at same price and duration. VAT may apply.,https://hide.me/en/pricing
+hide-me,hide.me,13-month,USD,4.23,54.99,13,"Actually 12 months + 1 month extra, billed $54.99 every 13 months; 4.23/mo is per 13 months. Vendor states same renewal price.",https://hide.me/en/pricing
+hide-me,hide.me,26-month,USD,2.69,69.99,26,"Actually 24 months + 2 months extra, billed $69.99 every 26 months; 2.69/mo is per 26 months. Labelled 'Exclusive Price'; vendor states same renewal price.",https://hide.me/en/pricing
+hotspot-shield,Hotspot Shield,1-month,USD,,,1,"Pricing is JS-rendered / order.hotspotshield.com; not retrievable. offered=false here means unverified, not confirmed absent.",https://www.hotspotshield.com/
+hotspot-shield,Hotspot Shield,1-year (not verified),USD,,,,Not retrievable; unverified.,https://www.hotspotshield.com/
+hotspot-shield,Hotspot Shield,2-year (not verified),USD,,,,Not retrievable; unverified.,https://www.hotspotshield.com/
+ipvanish,IPVanish,1-month,USD,14.99,14.99,1,Essential tier; renews monthly at $14.99. Advanced $17.99/mo.,https://www.ipvanish.com/
+ipvanish,IPVanish,12-month,USD,3.89,46.68,12,"Essential promo: $46.68 for first year, renews yearly at $99.99. Advanced promo $5.39/mo ($64.68 first year), renews $129.99.",https://www.ipvanish.com/
+ipvanish,IPVanish,24-month,USD,2.39,57.36,24,"Essential promo: $57.36 for first 2 years, then renews yearly at $99.99. Advanced promo $3.59/mo ($86.16), renews $129.99.",https://www.ipvanish.com/
+ivpn,IVPN,1-month,USD,6,6,1,"Standard tier (5 devices). Plus is $8/mo, Pro Suite $10/mo. A 1-week option also exists. No promo/renewal difference stated.",https://www.ivpn.net/en/pricing/
+ivpn,IVPN,12-month,USD,5,60,12,"Standard tier $60/year; monthly equivalent is derived from the $60 total. Plus $80/yr, Pro Suite $100/yr.",https://www.ivpn.net/en/pricing/
+ivpn,IVPN,2-year (not verified),USD,,,,"Pricing page lists 1 week, 1 month and 1 year only.",https://www.ivpn.net/en/pricing/
+mullvad,Mullvad VPN,1-month,EUR,5,,1,Flat EUR 5 per month incl. VAT; no promo/renewal difference stated.,https://mullvad.net/en/pricing
+mullvad,Mullvad VPN,12-month,EUR,5,,12,Pricing page shows the same EUR 5 per month for 1 year; upfront total not stated.,https://mullvad.net/en/pricing
+mullvad,Mullvad VPN,2-year (not verified),EUR,,,,"Pricing page lists 1 month, 1 year and 1 decade only; no 2-year term.",https://mullvad.net/en/pricing
+nordvpn,NordVPN,1-month,USD,14.99,14.99,1,"Basic tier, billed monthly; Complete $19.99/mo monthly",https://nordvpn.com/pricing/
+nordvpn,NordVPN,1-year (not verified),USD,5.49,65.88,,"Basic tier; promo total for first 12 months; renews at $139.08/year (Complete promo $6.49/mo, Prime $9.49/mo)",https://nordvpn.com/pricing/
+nordvpn,NordVPN,2-year (not verified),USD,3.49,94.23,,"Basic tier; promo $94.23 for first 27 months (2 years + 3 extra months, so per-month figure is vendor-stated); renews at $139.08/year (Complete $4.49/mo, Prime $7.49/mo)",https://nordvpn.com/pricing/
+pia,Private Internet Access,1-month,USD,11.95,11.95,1,Auto-renews at $11.95 monthly,https://www.privateinternetaccess.com/pages/buy-a-vpn
+pia,Private Internet Access,12-month,USD,3.99,47.88,12,Billed $47.88 first year then auto-renews annually at $47.88 (no promo/renewal gap stated),https://www.privateinternetaccess.com/pages/buy-a-vpn
+pia,Private Internet Access,2-year (not verified),USD,,,,"No 2-year plan on pricing page; a 3-year (+3 months) plan is offered at $2.03/mo, $79 every 3 years",https://www.privateinternetaccess.com/pages/buy-a-vpn
+privatevpn,PrivateVPN,1-month,USD,9.9,9.9,1,Incl. VAT as displayed to a US-detected visitor; currency selector SEK/USD/EUR/GBP.,https://privatevpn.com/prices/pvpndealsv
+privatevpn,PrivateVPN,36-month,USD,2,72,36,"Displayed promo 'LIMITED OFFER 12 Months + 24 Months extra': 36 months for 72.00 USD (2.00/mo incl. VAT); page text says '72.00 USD billed every 12 months after 36 months' so renewal price appears to be 72.00 per 12 months (6.00/mo) but wording ambiguous. Plain 12-month-only price not shown. A 3-month tier (6.00/mo, 17.99 per 3 months) also exists.",https://privatevpn.com/prices/pvpndealsv
+privatevpn,PrivateVPN,2-year (not verified),USD,,,,"No 24-month plan shown on the pricing page (tiers shown: 1, 3, 12(+24 extra) months).",https://privatevpn.com/prices/pvpndealsv
+proton-vpn,Proton VPN,1-month,USD,,,1,Not retrieved: Proton pricing is JS-rendered (placeholders in static HTML). Proton Free tier exists (listed on pricing page as 'Proton Free'),https://protonvpn.com/pricing
+proton-vpn,Proton VPN,1-year (not verified),USD,,,,Not retrieved: Proton pricing is JS-rendered (placeholders in static HTML). Proton Free tier exists (listed on pricing page as 'Proton Free'),https://protonvpn.com/pricing
+proton-vpn,Proton VPN,2-year (not verified),USD,,,,Not retrieved: Proton pricing is JS-rendered (placeholders in static HTML). Proton Free tier exists (listed on pricing page as 'Proton Free'),https://protonvpn.com/pricing
+purevpn,PureVPN,1-month,USD,12.95,12.95,1,"Standard tier, 'No Discount' tab. Plus is $15.95/mo and Max $19.95/mo. Renewal prices not stated on the page.",https://www.purevpn.com/pricing
+purevpn,PureVPN,12-month,USD,2.55,47.95,12,"Standard tier promo shown as $2.55/mo (80% off list $12.95); '$47.95 on purchase' vs $143.40 struck through; term length billed for $47.95 not confirmed. Plus $4.55/mo ($69.95), Max $5.55/mo ($84.95). Renewal price not stated. Billing period: the vendor's cart plan definition for 'Standard plan yearly' has a 12-month interval; note $47.95/12 = 4.00/mo, which does not equal the displayed $2.55/mo, so the displayed monthly figure is not reproducible from the billed amount (unresolved; see GAPS).",https://www.purevpn.com/pricing
+purevpn,PureVPN,27-month,USD,2.15,57.95,27,"Standard tier promo '83% off + 3 extra months': $2.15/mo, $57.95 on purchase vs $322.65 struck through (so upfront likely covers 27 months; not stated explicitly). Plus $2.73/mo ($89.95), Max $3.55/mo ($109.95). Renewal price not stated.",https://www.purevpn.com/pricing
+strongvpn,StrongVPN,1-month,USD,11.99,11.99,1,Monthly plan as displayed on the vendor plans page; no money-back guarantee (the page limits it to the annual plan).,https://strongvpn.com/plans/
+strongvpn,StrongVPN,12-month,USD,3.97,47.69,12,"Annual plan, billed $47.69 for the first year; the page does not state the renewal price.",https://strongvpn.com/plans/
+surfshark,Surfshark,1-month,USD or EUR (not retrieved),,,1,Not retrieved: only 24-month tab in static HTML,https://surfshark.com/pricing
+surfshark,Surfshark,1-year (not verified),USD or EUR (not retrieved),,,,Not retrieved: only 24-month tab in static HTML,https://surfshark.com/pricing
+surfshark,Surfshark,27-month,USD,2.49,67.23,27,"USD price list, read 2026-09-29 (a US-dollar copy of the pricing page): Starter $2.49/mo, $67.23 for the first 27 months (24 + 3 extra); One $2.79/mo, $75.33; One+ $4.49/mo, $121.23. Renewal price not stated on the page. The same page read directly on 2026-09-29 showed the same numerals in EUR (next row); the vendor notes pricing varies with currency.",https://surfshark.com/pricing
+surfshark,Surfshark,27-month,EUR,2.49,67.23,27,"EUR price list, read 2026-09-29 (page states no currency selector; shown as euro): Starter EUR 2.49/mo, EUR 67.23 for the first 27 months; One EUR 2.79/mo, EUR 75.33; One+ EUR 4.49/mo, EUR 121.23. Renewal price not stated.",https://surfshark.com/pricing
+trust-zone,Trust.Zone,1-month,USD,9.99,9.99,1,"Shown as '1 month + 1 month' promo tier, 3 simultaneous connections; billed monthly.",https://trust.zone/prices
+trust-zone,Trust.Zone,1-year (billing period not verified),USD,3.33,39.99,,"Promo shown as '1 year + 1 year' (bonus term), struck-through list $119.88; 3.33/mo computed by vendor on the 12 paid months; renewal price not stated on page. Site also advertises time-limited '6 months FREE with code EXTRA'. billedMonths null: page's 'X years + X years' bonus wording makes the billed period ambiguous; pricePerMonth is the vendor's figure.",https://trust.zone/prices
+trust-zone,Trust.Zone,2-year (billing period not verified),USD,2.33,55.99,,"Promo shown as '2 years + 2 years', struck-through list $239.76; 5 simultaneous connections; renewal price not stated on page. billedMonths null: page's 'X years + X years' bonus wording makes the billed period ambiguous; pricePerMonth is the vendor's figure.",https://trust.zone/prices
+windscribe,Windscribe,1-month,USD,9,9,1,"Pro monthly plan, auto-renews; no promo shown on the page fetched.",https://windscribe.com/upgrade
+windscribe,Windscribe,12-month,USD,5.75,69,12,Pro yearly plan billed $69 every 12 months.,https://windscribe.com/upgrade
+windscribe,Windscribe,2-year (not verified),USD,,,,"Upgrade page lists only monthly, yearly and build-a-plan.",https://windscribe.com/upgrade
+zenmate,ZenMate,1-month,USD,,,1,New ZenMate sign-ups ceased 2023-03-16 per vendor announcement; no prices published.,https://zenmate.com/blog/zenmate-changes
+zenmate,ZenMate,1-year (not verified),USD,,,,As above.,https://zenmate.com/blog/zenmate-changes
+zenmate,ZenMate,2-year (not verified),USD,,,,As above.,https://zenmate.com/blog/zenmate-changes

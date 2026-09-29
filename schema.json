@@ -1,0 +1,286 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VPN audit register record",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "slug",
+      "name",
+      "checked",
+      "status",
+      "parentCompany",
+      "ultimateOwner",
+      "hqJurisdiction",
+      "audits",
+      "loggingPolicy",
+      "incidents",
+      "transparencyReport",
+      "openSourceClients",
+      "ramOnlyServers",
+      "plans",
+      "refundWindow",
+      "sources"
+    ],
+    "properties": {
+      "slug": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "checked": {
+        "type": "string",
+        "format": "date"
+      },
+      "status": {
+        "type": "string",
+        "enum": [
+          "active",
+          "discontinued",
+          "acquired-rebranded"
+        ],
+        "description": "Service status on the checked date"
+      },
+      "website": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "parentCompany": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "parentCompanySource": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "ultimateOwner": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "ultimateOwnerSource": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "hqJurisdiction": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "hqJurisdictionSource": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "audits": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "auditor",
+            "date",
+            "scope",
+            "reportUrl"
+          ],
+          "properties": {
+            "auditor": {
+              "type": "string"
+            },
+            "date": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "scope": {
+              "type": "string"
+            },
+            "reportUrl": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "sourceUrl": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        }
+      },
+      "loggingPolicy": {
+        "type": "object",
+        "properties": {
+          "claim": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "The vendor's claim, paraphrased"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "incidents": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "date",
+            "summary",
+            "sourceUrl"
+          ],
+          "properties": {
+            "date": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "summary": {
+              "type": "string"
+            },
+            "sourceUrl": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "transparencyReport": {
+        "type": "object",
+        "properties": {
+          "published": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "openSourceClients": {
+        "type": [
+          "boolean",
+          "null"
+        ],
+        "description": "true only if every first-party client is open source; details in openSourceNote"
+      },
+      "openSourceNote": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "openSourceSource": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "ramOnlyServers": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "Vendor claim, paraphrased: e.g. 'all servers', 'partial', 'none stated'"
+      },
+      "ramOnlyServersSource": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "plans": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "term": {
+              "type": "string",
+              "description": "Real billed term, e.g. '1-month', '13-month', '36-month'; '(billing period not verified)' suffix where unknown"
+            },
+            "currency": {
+              "type": "string"
+            },
+            "pricePerMonth": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Monthly-equivalent price as shown by the vendor, null if the term is not offered"
+            },
+            "totalChargedUpfront": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "offered": {
+              "type": "boolean"
+            },
+            "note": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "description": "Promo vs renewal price, plan tier, etc."
+            },
+            "sourceUrl": {
+              "type": "string"
+            },
+            "billedMonths": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "description": "Months covered by totalChargedUpfront (includes bonus months); null if not verified"
+            }
+          }
+        }
+      },
+      "refundWindow": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "description": "As stated in the vendor's terms"
+      },
+      "refundWindowSource": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

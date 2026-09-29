@@ -1,0 +1,2259 @@
+[
+ {
+  "slug": "airvpn",
+  "name": "AirVPN",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://airvpn.org/",
+  "parentCompany": null,
+  "parentCompanySource": null,
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Italy (secondary source only; vendor pages not readable)",
+  "hqJurisdictionSource": "https://proprivacy.com/vpn/review/airvpn",
+  "audits": [],
+  "loggingPolicy": {
+   "claim": "Secondary source reports vendor states a zero-logs policy; vendor's own policy page could not be read",
+   "url": "https://proprivacy.com/vpn/review/airvpn"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": "Eddie (official client) is open source under GPLv3; desktop edition on GitHub (AirVPN/Eddie), Android edition on GitLab (AirVPN/EddieAndroid) per the Eddie README. Not verified that no other first-party client exists, so left null.",
+  "openSourceSource": "https://raw.githubusercontent.com/AirVPN/Eddie/master/README.md",
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "EUR",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": true,
+    "note": "Price not verified: airvpn.org/plans is JS-rendered behind a cookie/JS gate. Secondary sources say AirVPN offers plans from 3 days to 3 years, EUR only.",
+    "sourceUrl": "https://airvpn.org/plans/",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (billing period not verified)",
+    "currency": "EUR",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": true,
+    "note": "Price not verified (see 1-month).",
+    "sourceUrl": "https://airvpn.org/plans/",
+    "billedMonths": null
+   },
+   {
+    "term": "2-year (billing period not verified)",
+    "currency": "EUR",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": true,
+    "note": "Offer existence per secondary source only (comparitech coupon article mentions 2-year and 3-year plans); price not verified.",
+    "sourceUrl": "https://airvpn.org/plans/",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": null,
+  "refundWindowSource": null,
+  "sources": [
+   "https://github.com/AirVPN",
+   "https://raw.githubusercontent.com/AirVPN/Eddie/master/README.md",
+   "https://eddie.website/",
+   "https://proprivacy.com/vpn/review/airvpn",
+   "https://airvpn.org/plans/"
+  ]
+ },
+ {
+  "slug": "astrill",
+  "name": "Astrill VPN",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://www.astrill.com/",
+  "parentCompany": "Veloxee Corp. (Astrill is a brand of Veloxee Corp.)",
+  "parentCompanySource": "https://www.astrill.com/privacy-policy",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Liechtenstein (registered seat: Staedtle 36, 9460 Vaduz)",
+  "hqJurisdictionSource": "https://www.astrill.com/terms-of-service",
+  "audits": [],
+  "loggingPolicy": {
+   "claim": "Vendor calls its policy 'no-logs' but discloses: session data (connection time, IP, device type, app version) is kept only during the VPN session and removed after disconnect; total bytes transferred per account are counted; the last 20 connection records per account (time, duration, country, device, app version) are kept for support; data may be kept longer in case of suspected misuse. Says server design does not let it see which sites users access.",
+   "url": "https://www.astrill.com/privacy-policy"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": "Not verified; no open-source claim found on pages read.",
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 30,
+    "totalChargedUpfront": 30,
+    "offered": true,
+    "note": "Personal plan as shown on pricing page HTML fetched 2026-09-28. Page also displayed a banner 'Your reseller coupon has been activated' (possibly template text), so shown prices may include a coupon discount; renewal price not stated on page.",
+    "sourceUrl": "https://www.astrill.com/pricing",
+    "billedMonths": 1
+   },
+   {
+    "term": "12-month",
+    "currency": "USD",
+    "pricePerMonth": 15,
+    "totalChargedUpfront": 180,
+    "offered": true,
+    "note": "Shown as $180 with $360 struck through (label 'Save 50%'); same coupon caveat as 1-month.",
+    "sourceUrl": "https://www.astrill.com/pricing",
+    "billedMonths": 12
+   },
+   {
+    "term": "24-month",
+    "currency": "USD",
+    "pricePerMonth": 12.5,
+    "totalChargedUpfront": 300,
+    "offered": true,
+    "note": "Shown as $300 with $720 struck through (label 'Save 58%', 'Most popular'); same coupon caveat.",
+    "sourceUrl": "https://www.astrill.com/pricing",
+    "billedMonths": 24
+   }
+  ],
+  "refundWindow": "None: vendor states all sales are final and refunds are not possible once purchase is made (routers have a separate warranty replacement/credit)",
+  "refundWindowSource": "https://www.astrill.com/refund-policy",
+  "sources": [
+   "https://www.astrill.com/pricing",
+   "https://www.astrill.com/privacy-policy",
+   "https://www.astrill.com/terms-of-service",
+   "https://www.astrill.com/refund-policy",
+   "https://www.astrill.com/about-us"
+  ]
+ },
+ {
+  "slug": "atlas-vpn",
+  "name": "Atlas VPN",
+  "checked": "2026-09-28",
+  "status": "discontinued",
+  "website": "https://atlasvpn.com",
+  "parentCompany": "Nord Security (announced deal to add Atlas VPN to its portfolio on 2021-10-15; Nord Security blog calls Atlas VPN 'a valued member of the Nord Security family')",
+  "parentCompanySource": "https://nordsecurity.com/blog/announcement-on-atlas-vpn",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": null,
+  "hqJurisdictionSource": null,
+  "audits": [],
+  "loggingPolicy": {
+   "claim": null,
+   "url": null
+  },
+  "incidents": [
+   {
+    "date": "2023-09-05",
+    "summary": "Zero-day in Atlas VPN Linux client v1.0.3: unauthenticated local API on port 8076 let a malicious website disconnect the VPN and leak the user's IP; publicly disclosed on Reddit in Aug 2023, reported fixed in v1.1 (article date used; disclosure date approximate).",
+    "sourceUrl": "https://www.helpnetsecurity.com/2023/09/05/atlas-vpn-zero-day-vulnerability/"
+   }
+  ],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Service closed 2024-04-24; no longer sold. Existing subscribers were moved to NordVPN for the remainder of their term.",
+    "sourceUrl": "https://nordsecurity.com/blog/announcement-on-atlas-vpn",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Service closed; no longer sold.",
+    "sourceUrl": "https://nordsecurity.com/blog/announcement-on-atlas-vpn",
+    "billedMonths": null
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Service closed; no longer sold.",
+    "sourceUrl": "https://nordsecurity.com/blog/announcement-on-atlas-vpn",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": null,
+  "refundWindowSource": null,
+  "sources": [
+   "https://nordsecurity.com/blog/announcement-on-atlas-vpn",
+   "https://www.globenewswire.com/news-release/2021/10/15/2315001/0/en/Nord-Security-extends-its-portfolio-of-cybersecurity-brands-with-Atlas-VPN.html",
+   "https://www.helpnetsecurity.com/2023/09/05/atlas-vpn-zero-day-vulnerability/"
+  ]
+ },
+ {
+  "slug": "cyberghost",
+  "name": "CyberGhost",
+  "checked": "2026-09-29",
+  "status": "active",
+  "website": "https://www.cyberghostvpn.com",
+  "parentCompany": "CyberGhost S.R.L.; ultimate holding company stated as Kape Technologies PLC",
+  "parentCompanySource": "https://www.cyberghostvpn.com/privacypolicy",
+  "ultimateOwner": "Teddy Sagi (via Kape Technologies) - per Wikipedia only, not confirmed on vendor pages",
+  "ultimateOwnerSource": "https://en.wikipedia.org/wiki/Kape_Technologies",
+  "hqJurisdiction": "Romania (CyberGhost S.R.L., Bucharest)",
+  "hqJurisdictionSource": "https://www.cyberghostvpn.com/imprint",
+  "audits": [
+   {
+    "auditor": "Deloitte Audit Romania",
+    "date": "2025",
+    "scope": "Third no-logs audit (ISAE 3000 Revised) of infrastructure and operational systems (blog updated 2026-02-24)",
+    "reportUrl": "https://www.cyberghostvpn.com/deloitte-privacy-policy",
+    "sourceUrl": "https://www.cyberghostvpn.com/privacyhub/privacy-audit-2025/"
+   },
+   {
+    "auditor": "Deloitte Audit Romania",
+    "date": "2024",
+    "scope": "Second no-logs audit",
+    "reportUrl": null,
+    "sourceUrl": "https://www.cyberghostvpn.com/privacyhub/privacy-audit-2024/"
+   },
+   {
+    "auditor": "Deloitte Audit Romania",
+    "date": null,
+    "scope": "First no-logs audit (date not read)",
+    "reportUrl": null,
+    "sourceUrl": "https://www.cyberghostvpn.com/privacyhub/privacy-audit/"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Vendor states strict no-logs: no browsing history, traffic logs, IP assignments or connection timestamps; enforced with RAM-only servers and verified by Deloitte.",
+   "url": "https://www.cyberghostvpn.com/features/no-logs-vpn"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://www.cyberghostvpn.com/transparency-report"
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": "RAM-only servers stated (share of fleet not specified)",
+  "ramOnlyServersSource": "https://www.cyberghostvpn.com/features/no-logs-vpn",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 12.99,
+    "totalChargedUpfront": 12.99,
+    "note": "USD price list, read 2026-09-29: $12.99, auto-renews monthly. The EUR list read the same day shows EUR 11.99 (see EUR rows). Previously recorded as 'Auto-renews at $12.99 monthly'.",
+    "sourceUrl": "https://www.cyberghostvpn.com/en_US/pricing",
+    "offered": true,
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "No 1-year plan on pricing page (6-month at $6.99/mo and 2-year+ offered)",
+    "sourceUrl": "https://www.cyberghostvpn.com/en_US/pricing",
+    "offered": false,
+    "billedMonths": null
+   },
+   {
+    "term": "26-month",
+    "currency": "USD",
+    "pricePerMonth": 2.19,
+    "totalChargedUpfront": 56.94,
+    "note": "USD price list, read 2026-09-29: $2.19/mo, billed $56.94 for the first 26 months, then renews at $56.94 annually. The EUR list shows the same numerals (EUR rows).",
+    "sourceUrl": "https://www.cyberghostvpn.com/en_US/pricing",
+    "offered": true,
+    "billedMonths": 26
+   },
+   {
+    "term": "6-month",
+    "currency": "USD",
+    "pricePerMonth": 6.99,
+    "totalChargedUpfront": 41.94,
+    "note": "USD price list, read 2026-09-29: $6.99/mo, $41.94, renews at $41.94 every 6 months; 45-day guarantee.",
+    "sourceUrl": "https://www.cyberghostvpn.com/en_US/pricing",
+    "offered": true,
+    "billedMonths": 6
+   },
+   {
+    "term": "1-month",
+    "currency": "EUR",
+    "pricePerMonth": 11.99,
+    "totalChargedUpfront": 11.99,
+    "note": "EUR price list, read 2026-09-29 (page states 'all amounts shown are in Euros'): EUR 11.99, renews monthly.",
+    "sourceUrl": "https://www.cyberghostvpn.com/en_US/pricing",
+    "offered": true,
+    "billedMonths": 1
+   },
+   {
+    "term": "6-month",
+    "currency": "EUR",
+    "pricePerMonth": 6.99,
+    "totalChargedUpfront": 41.94,
+    "note": "EUR price list, read 2026-09-29: EUR 6.99/mo, EUR 41.94, renews at EUR 41.94 every 6 months.",
+    "sourceUrl": "https://www.cyberghostvpn.com/en_US/pricing",
+    "offered": true,
+    "billedMonths": 6
+   },
+   {
+    "term": "26-month",
+    "currency": "EUR",
+    "pricePerMonth": 2.19,
+    "totalChargedUpfront": 56.94,
+    "note": "EUR price list, read 2026-09-29: EUR 2.19/mo, EUR 56.94 for the first 26 months, renews at EUR 56.94 annually.",
+    "sourceUrl": "https://www.cyberghostvpn.com/en_US/pricing",
+    "offered": true,
+    "billedMonths": 26
+   }
+  ],
+  "refundWindow": "45 days for 6-month/2-year plans; 14 days for 1-month plan",
+  "refundWindowSource": "https://www.cyberghostvpn.com/money-back-guarantee",
+  "sources": [
+   "https://www.cyberghostvpn.com/en_US/pricing",
+   "https://www.cyberghostvpn.com/features/no-logs-vpn",
+   "https://www.cyberghostvpn.com/privacyhub/privacy-audit-2025/",
+   "https://www.cyberghostvpn.com/privacypolicy",
+   "https://www.cyberghostvpn.com/imprint",
+   "https://www.cyberghostvpn.com/transparency-report",
+   "https://www.cyberghostvpn.com/money-back-guarantee",
+   "https://en.wikipedia.org/wiki/Kape_Technologies"
+  ]
+ },
+ {
+  "slug": "expressvpn",
+  "name": "ExpressVPN",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://www.expressvpn.com",
+  "parentCompany": "Express Technologies Ltd.; ultimate holding company stated as Kape Technologies PLC",
+  "parentCompanySource": "https://www.expressvpn.com/privacy-policy",
+  "ultimateOwner": "Teddy Sagi (via Kape Technologies) - per Wikipedia only, not confirmed on vendor pages",
+  "ultimateOwnerSource": "https://en.wikipedia.org/wiki/Kape_Technologies",
+  "hqJurisdiction": "British Virgin Islands",
+  "hqJurisdictionSource": "https://www.expressvpn.com/privacy-policy",
+  "audits": [
+   {
+    "auditor": "Cure53",
+    "date": "2026-05",
+    "scope": "ExpressMailGuard",
+    "reportUrl": "https://cure53.de/pentest-report_expressvpn-mailguard_2026.pdf",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2026-05",
+    "scope": "Identity Defender",
+    "reportUrl": "https://cure53.de/pentest-report_expressvpn-id-defender_2026.pdf",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2026-04",
+    "scope": "EventVPN",
+    "reportUrl": "https://cure53.de/pentest-report_expressvpn-eventvpn.pdf",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2026-03",
+    "scope": "ExpressKeys security and architecture review",
+    "reportUrl": "https://cure53.de/pentest-report_expressvpn-expresskeys.pdf",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2026-03",
+    "scope": "ExpressAI",
+    "reportUrl": "https://cure53.de/pentest-report_expressvpn-ai_2026.pdf",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "KPMG",
+    "date": "2025-06",
+    "scope": "Third KPMG audit of privacy commitments / no-logs (TrustedServer), ISAE (UK) 3000 Type 1 as of 28 Feb 2025",
+    "reportUrl": "https://www.expressvpn.com/blog/kpmg-2025-no-logs-policy-audit/",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2024-11",
+    "scope": "Aircove routers (second audit)",
+    "reportUrl": "https://cure53.de/pentest-report_expressvpn-aircove_2024.pdf",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2024-10",
+    "scope": "Lightway VPN protocol (fourth audit)",
+    "reportUrl": "https://cure53.de/pentest-report_expressvpn-lightway_2024.pdf",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Praetorian",
+    "date": "2024-09",
+    "scope": "Lightway VPN protocol (third audit)",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2024-06",
+    "scope": "Browser extension (second audit)",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Unspecified (listed as Windows app audit)",
+    "date": "2024-04",
+    "scope": "Windows app, confirm remediation of DNS issue related to split tunneling",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "KPMG",
+    "date": "2023-12",
+    "scope": "Privacy policy claims",
+    "reportUrl": "https://www.expressvpn.com/security-audit-reports/kpmg-privacy-policy-2023",
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-11",
+    "scope": "Lightway (second audit)",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-10",
+    "scope": "ExpressKeys browser extension",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-10",
+    "scope": "ExpressVPN browser extension",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "KPMG",
+    "date": "2022-09",
+    "scope": "No-logs policy",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-09",
+    "scope": "iOS app",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-08",
+    "scope": "Android app",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-08",
+    "scope": "Linux app",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-07",
+    "scope": "macOS app",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-07",
+    "scope": "Aircove router",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-05",
+    "scope": "TrustedServer in-house VPN server technology",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "F-Secure",
+    "date": "2022-04",
+    "scope": "Windows v12 app",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "F-Secure",
+    "date": "2022-03",
+    "scope": "Windows v10 app",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2021-08",
+    "scope": "Lightway VPN protocol",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "PwC Switzerland",
+    "date": "2020-06",
+    "scope": "Build verification process",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "PwC Switzerland",
+    "date": "2019-06",
+    "scope": "Privacy policy compliance and TrustedServer technology",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2018-11",
+    "scope": "Browser extension",
+    "reportUrl": null,
+    "sourceUrl": "https://www.expressvpn.com/trust"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Vendor states it does not and will not keep logs of online activity or personal information (browsing history, traffic destination/metadata, DNS queries).",
+   "url": "https://www.expressvpn.com/trust"
+  },
+  "incidents": [
+   {
+    "date": "2021-09",
+    "summary": "Vendor's official response (16 Sept 2021) to news about its CIO Daniel Gericke and his earlier work on Project Raven; the vendor says it does not condone Project Raven. Not a breach of ExpressVPN systems. Legal detail of the US case is not in the cited page and is not stated here.",
+    "sourceUrl": "https://www.expressvpn.com/blog/daniel-gericke-expressvpn/"
+   }
+  ],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://www.expressvpn.com/trust"
+  },
+  "openSourceClients": false,
+  "openSourceNote": "Lightway protocol core library is open-sourced; full apps not stated as open source.",
+  "openSourceSource": "https://www.expressvpn.com/trust",
+  "ramOnlyServers": "all servers (TrustedServer runs only on volatile memory/RAM, per vendor)",
+  "ramOnlyServersSource": "https://www.expressvpn.com/trust",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "Not retrieved: pricing page renders only the 2-year tab in static HTML",
+    "sourceUrl": "https://www.expressvpn.com/order",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "Not retrieved: pricing page renders only the 2-year tab in static HTML",
+    "sourceUrl": "https://www.expressvpn.com/order",
+    "billedMonths": null
+   },
+   {
+    "term": "28-month",
+    "currency": "USD",
+    "pricePerMonth": 2.99,
+    "totalChargedUpfront": 83.72,
+    "note": "Basic tier promo: $83.72 for first 28 months (2 years + 4 months); renews at $99.95 annually (Advanced $4.49/mo promo, renews $119.95/yr; Pro $7.49/mo promo, renews $199.95/yr)",
+    "sourceUrl": "https://www.expressvpn.com/order",
+    "offered": true,
+    "billedMonths": 28
+   }
+  ],
+  "refundWindow": "30 calendar days from initial purchase (new subscribers only; not for renewals)",
+  "refundWindowSource": "https://www.expressvpn.com/tos",
+  "sources": [
+   "https://www.expressvpn.com/order",
+   "https://www.expressvpn.com/trust",
+   "https://www.expressvpn.com/privacy-policy",
+   "https://www.expressvpn.com/tos",
+   "https://www.expressvpn.com/blog/kpmg-2025-no-logs-policy-audit/",
+   "https://www.expressvpn.com/blog/daniel-gericke-expressvpn/",
+   "https://en.wikipedia.org/wiki/Kape_Technologies"
+  ]
+ },
+ {
+  "slug": "hide-me",
+  "name": "hide.me",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://hide.me",
+  "parentCompany": "eVenture Limited (operator; no higher parent stated)",
+  "parentCompanySource": "https://hide.me/en/legal",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Malaysia (registered office Labuan F.T.; reg. no. LL09685)",
+  "hqJurisdictionSource": "https://hide.me/en/legal",
+  "audits": [
+   {
+    "auditor": "Securitum",
+    "date": "2024-06-07",
+    "scope": "No-logs policy compliance audit (Securitum). Report read 2026-09-29: document date 07.06.2024, fieldwork 19.03.2024-06.06.2024, state of product as of 15.03.2024; confirmed no-logs policy applied, no issues found on the sampled VPN container.",
+    "reportUrl": "https://hide.me/downloads/Securitum_Hide.me_no-log-policy_20240607.pdf",
+    "sourceUrl": "https://hide.me/en/about"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "States it does not keep logs of VPN sessions, browsing behaviour, visited websites, or connection timestamps matching incoming/outgoing IPs or session duration.",
+   "url": "https://hide.me/en/legal"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://hide.me/downloads/hide.me-transparency-report-2025.pdf"
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 11.99,
+    "totalChargedUpfront": 11.99,
+    "offered": true,
+    "note": "Monthly; vendor states plan renews at same price and duration. VAT may apply.",
+    "sourceUrl": "https://hide.me/en/pricing",
+    "billedMonths": 1
+   },
+   {
+    "term": "13-month",
+    "currency": "USD",
+    "pricePerMonth": 4.23,
+    "totalChargedUpfront": 54.99,
+    "offered": true,
+    "note": "Actually 12 months + 1 month extra, billed $54.99 every 13 months; 4.23/mo is per 13 months. Vendor states same renewal price.",
+    "sourceUrl": "https://hide.me/en/pricing",
+    "billedMonths": 13
+   },
+   {
+    "term": "26-month",
+    "currency": "USD",
+    "pricePerMonth": 2.69,
+    "totalChargedUpfront": 69.99,
+    "offered": true,
+    "note": "Actually 24 months + 2 months extra, billed $69.99 every 26 months; 2.69/mo is per 26 months. Labelled 'Exclusive Price'; vendor states same renewal price.",
+    "sourceUrl": "https://hide.me/en/pricing",
+    "billedMonths": 26
+   }
+  ],
+  "refundWindow": "30 days from start of plan; must notify in writing by email; full refund subject to conditions listed in terms (e.g. not exceeding usage conditions; conditions truncated in review)",
+  "refundWindowSource": "https://hide.me/en/legal",
+  "sources": [
+   "https://hide.me/en/legal",
+   "https://hide.me/en/about",
+   "https://hide.me/en/pricing"
+  ]
+ },
+ {
+  "slug": "hotspot-shield",
+  "name": "Hotspot Shield",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://www.hotspotshield.com",
+  "parentCompany": "Pango Group (Intersections LLC / Pango GmbH, d/b/a Pango Group), which merged with Total Security in Dec 2024 and rebranded as Point Wild (per press coverage; Point Wild press page returned 403 to me)",
+  "parentCompanySource": "https://www.hotspotshield.com/privacy-policy-09292022/",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": null,
+  "hqJurisdictionSource": null,
+  "audits": [
+   {
+    "auditor": "Aon",
+    "date": "2023-08-25",
+    "scope": "Technical assessment of Hotspot Shield VPN (free and paid tiers, client and server side) validating the privacy policy's data collection/logging claims; included review of a 2022 law-enforcement transparency report, logging data from a test VPN node, staff interviews and client testing. Summary report only.",
+    "reportUrl": "https://www.hotspotshield.com/reports/Pango_HotSpot%20Shield_VPN_Privacy_Policy_Review_Summary_Report.pdf",
+    "sourceUrl": "https://www.hotspotshield.com/security-audit/"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "VPN products do not log information associating account credentials or identity with VPN session activity, and keep no records of websites or apps accessed. (URL is the 29 Sep 2022 version of the policy; current version at legal.hotspotshield.com returned 403.)",
+   "url": "https://www.hotspotshield.com/privacy-policy-09292022/"
+  },
+  "incidents": [
+   {
+    "date": "2017-08-07",
+    "summary": "Center for Democracy and Technology filed an FTC complaint alleging Hotspot Shield Free VPN (then AnchorFree) engaged in undisclosed data sharing with ad networks and traffic redirection; complaint, not a finding of wrongdoing.",
+    "sourceUrl": "https://cdt.org/insights/cdts-complaint-to-the-ftc-on-hotspot-shield-vpn/"
+   }
+  ],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Pricing is JS-rendered / order.hotspotshield.com; not retrievable. offered=false here means unverified, not confirmed absent.",
+    "sourceUrl": "https://www.hotspotshield.com/",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Not retrievable; unverified.",
+    "sourceUrl": "https://www.hotspotshield.com/",
+    "billedMonths": null
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Not retrievable; unverified.",
+    "sourceUrl": "https://www.hotspotshield.com/",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "45 days from enrollment when purchased directly from vendor (homepage statement); the 2019 ToS version (terms20191510) only mentions pro-rated refunds and refers to Section 9, so current terms not verified",
+  "refundWindowSource": "https://www.hotspotshield.com/",
+  "sources": [
+   "https://www.hotspotshield.com/",
+   "https://www.hotspotshield.com/security-audit/",
+   "https://www.hotspotshield.com/reports/Pango_HotSpot%20Shield_VPN_Privacy_Policy_Review_Summary_Report.pdf",
+   "https://www.hotspotshield.com/privacy-policy-09292022/",
+   "https://www.hotspotshield.com/terms20191510/",
+   "https://cdt.org/insights/cdts-complaint-to-the-ftc-on-hotspot-shield-vpn/",
+   "https://www.aura.com/press/release/aura-splits-into-two-world-class-online-safety-companies",
+   "https://www.prnewswire.com/news-releases/pango-group-merges-with-total-security-combined-company-rebranded-point-wild-302330290.html"
+  ]
+ },
+ {
+  "name": "IPVanish",
+  "status": "active",
+  "website": "https://www.ipvanish.com",
+  "parentCompany": "Ziff Davis",
+  "parentCompanySource": "https://www.ipvanish.com/",
+  "ultimateOwner": "Ziff Davis, Inc.",
+  "ultimateOwnerSource": "https://www.ipvanish.com/privacy-policy/",
+  "hqJurisdiction": "United States (privacy policy lists 360 Park Avenue South, New York; parent Ziff Davis, Inc.)",
+  "hqJurisdictionSource": "https://www.ipvanish.com/privacy-policy/",
+  "audits": [
+   {
+    "auditor": "Schellman Compliance, LLC",
+    "date": "2025-04",
+    "scope": "No-logs policy compliance audit; full report available in account portal Security Reports",
+    "reportUrl": null,
+    "sourceUrl": "https://www.ipvanish.com/trust/"
+   },
+   {
+    "auditor": "Leviathan Security Group",
+    "date": "2022-04",
+    "scope": "No-traffic-logs privacy policy compliance audit",
+    "reportUrl": null,
+    "sourceUrl": "https://www.ipvanish.com/blog/ipvanish-no-logs-vpn-audit-2022/"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "IPVanish says it does not log traffic content/destinations, browsing, DNS queries or app usage; it does retain username, starting IP, session start time, duration and traffic volume to prevent abuse. The same policy also lists 'connection time stamps' among things it does not retain; both statements are on the page.",
+   "url": "https://www.ipvanish.com/no-log-vpn-policy/"
+  },
+  "incidents": [
+   {
+    "date": "2016-05",
+    "summary": "Under a DHS summons, IPVanish supplied connection timestamps and source IP for a user despite a no-logs claim; reported by TorrentFreak in 2018 (which names StackPath as the service's new operator).",
+    "sourceUrl": "https://torrentfreak.com/ipvanish-no-logging-vpn-led-homeland-security-to-comcast-user-180505/"
+   }
+  ],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://www.ipvanish.com/trust/"
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": "partial (IPVanish says it is transitioning and on track to be 100% RAM-only by 2027)",
+  "ramOnlyServersSource": "https://www.ipvanish.com/no-log-vpn-policy/",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 14.99,
+    "totalChargedUpfront": 14.99,
+    "offered": true,
+    "note": "Essential tier; renews monthly at $14.99. Advanced $17.99/mo.",
+    "sourceUrl": "https://www.ipvanish.com/",
+    "billedMonths": 1
+   },
+   {
+    "term": "12-month",
+    "currency": "USD",
+    "pricePerMonth": 3.89,
+    "totalChargedUpfront": 46.68,
+    "offered": true,
+    "note": "Essential promo: $46.68 for first year, renews yearly at $99.99. Advanced promo $5.39/mo ($64.68 first year), renews $129.99.",
+    "sourceUrl": "https://www.ipvanish.com/",
+    "billedMonths": 12
+   },
+   {
+    "term": "24-month",
+    "currency": "USD",
+    "pricePerMonth": 2.39,
+    "totalChargedUpfront": 57.36,
+    "offered": true,
+    "note": "Essential promo: $57.36 for first 2 years, then renews yearly at $99.99. Advanced promo $3.59/mo ($86.16), renews $129.99.",
+    "sourceUrl": "https://www.ipvanish.com/",
+    "billedMonths": 24
+   }
+  ],
+  "refundWindow": "30 days from purchase for yearly or 2-year plans; monthly plans not covered automatically",
+  "refundWindowSource": "https://www.ipvanish.com/",
+  "sources": [
+   "https://www.ipvanish.com/",
+   "https://www.ipvanish.com/no-log-vpn-policy/",
+   "https://www.ipvanish.com/trust/",
+   "https://www.ipvanish.com/privacy-policy/",
+   "https://www.ipvanish.com/money-back-guarantee/",
+   "https://www.ipvanish.com/blog/ipvanish-no-logs-vpn-audit-2022/",
+   "https://torrentfreak.com/ipvanish-no-logging-vpn-led-homeland-security-to-comcast-user-180505/"
+  ],
+  "slug": "ipvanish",
+  "checked": "2026-09-29"
+ },
+ {
+  "name": "IVPN",
+  "status": "active",
+  "website": "https://www.ivpn.net",
+  "parentCompany": "IVPN Limited",
+  "parentCompanySource": "https://www.ivpn.net/en/team/",
+  "ultimateOwner": "Nicholas Pestell (founder, CEO and 100% owner of IVPN Limited, per IVPN)",
+  "ultimateOwnerSource": "https://www.ivpn.net/en/team/",
+  "hqJurisdiction": "Gibraltar",
+  "hqJurisdictionSource": "https://www.ivpn.net/en/privacy/",
+  "audits": [
+   {
+    "auditor": "Cure53",
+    "date": "2019-03-21",
+    "scope": "No-logs claims verification of VPN gateways (audit March 2019)",
+    "reportUrl": "https://cure53.de/audit-report_ivpn.pdf",
+    "sourceUrl": "https://www.ivpn.net/blog/ivpn-no-logging-claim-verified-by-independent-audit/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2020-01-23",
+    "scope": "Public VPN infrastructure, internal backend servers, pen test of public web servers (Nov-Dec 2019)",
+    "reportUrl": "https://cure53.de/summary-report_ivpn_2019.pdf",
+    "sourceUrl": "https://www.ivpn.net/blog/independent-security-audit-concluded/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2021-03-12",
+    "scope": "IVPN desktop apps (new codebase) plus iOS and Android apps",
+    "reportUrl": "https://cure53.de/pentest-report_IVPN.pdf",
+    "sourceUrl": "https://www.ivpn.net/blog/ivpn-apps-security-audit-concluded/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2023-03-15",
+    "scope": "New VPN gateway server infrastructure (6 days, Feb 2023)",
+    "reportUrl": "https://cure53.de/pentest-report_IVPN_2023.pdf",
+    "sourceUrl": "https://www.ivpn.net/blog/ivpn-infrastructure-audit-concluded/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2024-04-11",
+    "scope": "Web UI, backend, API endpoints, web servers (sixth annual audit)",
+    "reportUrl": "https://cure53.de/pentest-report_IVPN_2024.pdf",
+    "sourceUrl": "https://www.ivpn.net/blog/ivpn-sixth-security-audit-concluded/"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "IVPN says it retains no connection logs or session data and stores no customer information beyond what is needed; it says it cannot associate a request with a customer identity.",
+   "url": "https://www.ivpn.net/en/privacy/"
+  },
+  "incidents": [
+   {
+    "date": "2026-08-07",
+    "summary": "Exploited BTCPay Server vulnerability on IVPN's self-hosted Bitcoin payment server let an attacker take Lightning node credentials and move out IVPN operating funds; IVPN says no customer data or customer funds were affected and VPN infrastructure was not involved. Lightning payments were down 7-10 Aug.",
+    "sourceUrl": "https://www.ivpn.net/blog/security-incident-bitcoin-payment-server/"
+   }
+  ],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://www.ivpn.net/en/transparency-report/"
+  },
+  "openSourceClients": true,
+  "openSourceNote": "IVPN pricing page states all its services are open source; apps were open sourced before March 2021 per its audit post. Individual repos not checked.",
+  "openSourceSource": "https://www.ivpn.net/en/pricing/",
+  "ramOnlyServers": "in progress (May 2025 IVPN post says the infrastructure upgrade including transition to RAM-only servers was under way with test deployments; completion not verified)",
+  "ramOnlyServersSource": "https://www.ivpn.net/blog/annual-security-audit-scheduled-2025/",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 6,
+    "totalChargedUpfront": 6,
+    "offered": true,
+    "note": "Standard tier (5 devices). Plus is $8/mo, Pro Suite $10/mo. A 1-week option also exists. No promo/renewal difference stated.",
+    "sourceUrl": "https://www.ivpn.net/en/pricing/",
+    "billedMonths": 1
+   },
+   {
+    "term": "12-month",
+    "currency": "USD",
+    "pricePerMonth": 5,
+    "totalChargedUpfront": 60,
+    "offered": true,
+    "note": "Standard tier $60/year; monthly equivalent is derived from the $60 total. Plus $80/yr, Pro Suite $100/yr.",
+    "sourceUrl": "https://www.ivpn.net/en/pricing/",
+    "billedMonths": 12
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Pricing page lists 1 week, 1 month and 1 year only.",
+    "sourceUrl": "https://www.ivpn.net/en/pricing/",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "Full refund within 30 days of payment, once per account and per customer",
+  "refundWindowSource": "https://www.ivpn.net/en/refunds/",
+  "sources": [
+   "https://www.ivpn.net/en/team/",
+   "https://www.ivpn.net/en/privacy/",
+   "https://www.ivpn.net/en/pricing/",
+   "https://www.ivpn.net/en/refunds/",
+   "https://www.ivpn.net/en/transparency-report/",
+   "https://www.ivpn.net/en/blog/tags/audit/",
+   "https://www.ivpn.net/blog/annual-security-audit-scheduled-2025/",
+   "https://www.ivpn.net/blog/annual-security-audit-scheduled-2026/",
+   "https://www.ivpn.net/blog/security-incident-bitcoin-payment-server/"
+  ],
+  "slug": "ivpn",
+  "checked": "2026-09-28"
+ },
+ {
+  "name": "Mullvad VPN",
+  "status": "active",
+  "website": "https://mullvad.net",
+  "parentCompany": "Amagicom AB",
+  "parentCompanySource": "https://mullvad.net/en/about",
+  "ultimateOwner": "Fredrik Strömberg and Daniel Berntsson (100% owners of Amagicom AB and Mullvad VPN AB, per Mullvad)",
+  "ultimateOwnerSource": "https://mullvad.net/en/about",
+  "hqJurisdiction": "Sweden (Gothenburg)",
+  "hqJurisdictionSource": "https://mullvad.net/en/about",
+  "audits": [
+   {
+    "auditor": "Leviathan Security Group",
+    "date": "2026-06-01",
+    "scope": "MASA (mobile app security assessment) of Android app, second pass",
+    "reportUrl": "https://mullvad.net/en/blog/2026-security-assessment-of-our-android-app",
+    "sourceUrl": "https://mullvad.net/en/blog/2026-security-assessment-of-our-android-app"
+   },
+   {
+    "auditor": "Assured Security Consultants",
+    "date": "2026-03-06",
+    "scope": "Audit of GotaTun (WireGuard implementation used in Android app)",
+    "reportUrl": "https://mullvad.net/en/blog/a-security-audit-of-gotatun-is-now-available",
+    "sourceUrl": "https://mullvad.net/en/blog/a-security-audit-of-gotatun-is-now-available"
+   },
+   {
+    "auditor": "X41 D-Sec GmbH",
+    "date": "2026-01-21",
+    "scope": "White-box source code audit of payment and account API and backend services",
+    "reportUrl": "https://mullvad.net/en/blog/new-security-audit-of-account-and-payment-services",
+    "sourceUrl": "https://mullvad.net/en/blog/new-security-audit-of-account-and-payment-services"
+   },
+   {
+    "auditor": "Assured",
+    "date": "2025-10-23",
+    "scope": "Assessment of web app; no critical/high/medium issues, one low fixed",
+    "reportUrl": "https://mullvad.net/en/blog/independent-security-audit-of-our-web-app-completed-by-assured",
+    "sourceUrl": "https://mullvad.net/en/blog/independent-security-audit-of-our-web-app-completed-by-assured"
+   },
+   {
+    "auditor": "NCC Group",
+    "date": "2025-03-27",
+    "scope": "MASA of Android app (version 2024.9)",
+    "reportUrl": "https://mullvad.net/en/blog/successful-security-assessment-of-our-android-app",
+    "sourceUrl": "https://mullvad.net/en/blog/successful-security-assessment-of-our-android-app"
+   },
+   {
+    "auditor": "Not stated on listing (third-party)",
+    "date": "2024-12-11",
+    "scope": "Report for 2024 security audit of the Mullvad VPN app",
+    "reportUrl": null,
+    "sourceUrl": "https://mullvad.net/en/blog/tag/audits"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2024-06-27",
+    "scope": "VPN infrastructure audit (fourth infrastructure audit, 3-14 June 2024)",
+    "reportUrl": "https://mullvad.net/en/blog/fourth-infrastructure-audit-completed-by-cure53",
+    "sourceUrl": "https://mullvad.net/en/blog/fourth-infrastructure-audit-completed-by-cure53"
+   },
+   {
+    "auditor": "Radically Open Security",
+    "date": "2023-08-09",
+    "scope": "VPN infrastructure audit (third)",
+    "reportUrl": "https://mullvad.net/en/blog/infrastructure-audit-completed-by-radically-open-security",
+    "sourceUrl": "https://mullvad.net/en/blog/infrastructure-audit-completed-by-radically-open-security"
+   },
+   {
+    "auditor": "Assured AB",
+    "date": "2023-05-16",
+    "scope": "Leta search service (assessment 2023-03-27 to 2023-03-31)",
+    "reportUrl": "https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service",
+    "sourceUrl": "https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service"
+   },
+   {
+    "auditor": "Assured AB",
+    "date": "2023-02-17",
+    "scope": "Account and payment services (2022-11-07 to 2022-11-29)",
+    "reportUrl": null,
+    "sourceUrl": "https://mullvad.net/en/blog/tag/audits"
+   },
+   {
+    "auditor": "Not stated on listing",
+    "date": "2022-10-21",
+    "scope": "Security assessment of Mullvad VPN apps",
+    "reportUrl": null,
+    "sourceUrl": "https://mullvad.net/en/blog/tag/audits"
+   },
+   {
+    "auditor": "Assured AB",
+    "date": "2022-09-14",
+    "scope": "Authoritative DNS servers",
+    "reportUrl": null,
+    "sourceUrl": "https://mullvad.net/en/blog/tag/audits"
+   },
+   {
+    "auditor": "Assured AB",
+    "date": "2022-06-22",
+    "scope": "VPN server infrastructure; no information leakage or logging of customer data found",
+    "reportUrl": null,
+    "sourceUrl": "https://mullvad.net/en/blog/tag/audits"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2021-01-20",
+    "scope": "First infrastructure audit (completed Dec 2020)",
+    "reportUrl": null,
+    "sourceUrl": "https://mullvad.net/en/blog/tag/audits"
+   },
+   {
+    "auditor": "Not stated on listing",
+    "date": "2020-06-25",
+    "scope": "Mullvad VPN app audit report",
+    "reportUrl": null,
+    "sourceUrl": "https://mullvad.net/en/blog/tag/audits"
+   },
+   {
+    "auditor": "Not stated on listing",
+    "date": "2018-09-24",
+    "scope": "External audit of VPN app version 2018.2",
+    "reportUrl": null,
+    "sourceUrl": "https://mullvad.net/en/blog/tag/audits"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Mullvad states it does not keep activity logs of any kind; accounts are anonymous random numbers with no email or personal data.",
+   "url": "https://mullvad.net/en/help/no-logging-data-policy"
+  },
+  "incidents": [
+   {
+    "date": "2023-04-18",
+    "summary": "Swedish police visited Mullvad's Gothenburg office with a search warrant to seize customer data; Mullvad says none existed and police left without taking anything.",
+    "sourceUrl": "https://mullvad.net/en/blog/mullvad-vpn-was-subject-to-a-search-warrant-customer-data-not-compromised"
+   }
+  ],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": "Mullvad says the majority of software it uses and develops is open source, with projects on GitHub; a per-client statement was not verified.",
+  "openSourceSource": "https://mullvad.net/en/open-source",
+  "ramOnlyServers": "all VPN servers (Mullvad says RAM-only migration completed September 2023)",
+  "ramOnlyServersSource": "https://mullvad.net/en/about",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "EUR",
+    "pricePerMonth": 5,
+    "totalChargedUpfront": null,
+    "offered": true,
+    "note": "Flat EUR 5 per month incl. VAT; no promo/renewal difference stated.",
+    "sourceUrl": "https://mullvad.net/en/pricing",
+    "billedMonths": 1
+   },
+   {
+    "term": "12-month",
+    "currency": "EUR",
+    "pricePerMonth": 5,
+    "totalChargedUpfront": null,
+    "offered": true,
+    "note": "Pricing page shows the same EUR 5 per month for 1 year; upfront total not stated.",
+    "sourceUrl": "https://mullvad.net/en/pricing",
+    "billedMonths": 12
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "EUR",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Pricing page lists 1 month, 1 year and 1 decade only; no 2-year term.",
+    "sourceUrl": "https://mullvad.net/en/pricing",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "14-day money-back guarantee, starting when payment is made",
+  "refundWindowSource": "https://mullvad.net/en/help/terms-service",
+  "sources": [
+   "https://mullvad.net/en/about",
+   "https://mullvad.net/en/pricing",
+   "https://mullvad.net/en/help/terms-service",
+   "https://mullvad.net/en/help/no-logging-data-policy",
+   "https://mullvad.net/en/blog/tag/audits",
+   "https://mullvad.net/en/open-source",
+   "https://mullvad.net/en/blog/mullvad-vpn-was-subject-to-a-search-warrant-customer-data-not-compromised"
+  ],
+  "slug": "mullvad",
+  "checked": "2026-09-28"
+ },
+ {
+  "slug": "nordvpn",
+  "name": "NordVPN",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://nordvpn.com",
+  "parentCompany": "Nord Security",
+  "parentCompanySource": "https://nordvpn.com/about-us/",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Panama (NordVPN service, per vendor no-logs page); parent Nord Security headquartered in Lithuania",
+  "hqJurisdictionSource": "https://nordvpn.com/features/no-log-vpn/ ; https://nordvpn.com/about-us/",
+  "audits": [
+   {
+    "auditor": "PricewaterhouseCoopers AG Switzerland",
+    "date": "2018",
+    "scope": "No-logs policy verification (first independent no-logs audit)",
+    "reportUrl": null,
+    "sourceUrl": "https://nordvpn.com/trust/"
+   },
+   {
+    "auditor": "PricewaterhouseCoopers AG Switzerland",
+    "date": "2020-05-28",
+    "scope": "No-logs assurance engagement (expanded scope: obfuscated, Double VPN, P2P servers), ISAE-style assurance report issued 28 May 2020",
+    "reportUrl": "https://nordvpn.com/blog/nordvpn-audit/",
+    "sourceUrl": "https://nordvpn.com/blog/nordvpn-audit/"
+   },
+   {
+    "auditor": "Deloitte (unspecified entity)",
+    "date": null,
+    "scope": "Third no-logs review; vendor page says reviews 1-2 were PwC and later ones Deloitte, third date not stated",
+    "reportUrl": null,
+    "sourceUrl": "https://nordvpn.com/features/no-log-vpn/"
+   },
+   {
+    "auditor": "Deloitte",
+    "date": "2023",
+    "scope": "Fourth no-logs review",
+    "reportUrl": null,
+    "sourceUrl": "https://nordvpn.com/features/no-log-vpn/"
+   },
+   {
+    "auditor": "Deloitte Audit Lithuania",
+    "date": "2024",
+    "scope": "Fifth no-logs/assurance report on IT system configuration, infrastructure and no-logs claims (ISAE 3000 Revised); blog says commissioned end of 2024",
+    "reportUrl": "https://nordvpn.com/blog/nordvpn-no-logs-audit-2024/",
+    "sourceUrl": "https://nordvpn.com/blog/nordvpn-no-logs-audit-2024/"
+   },
+   {
+    "auditor": "Deloitte",
+    "date": "2025",
+    "scope": "Sixth no-logs review",
+    "reportUrl": null,
+    "sourceUrl": "https://nordvpn.com/features/no-log-vpn/"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Vendor states it does not keep logs of user activity (no browsing history, IP, DNS queries or downloaded files); says its no-logs policy has been independently verified six times.",
+   "url": "https://nordvpn.com/features/no-log-vpn/"
+  },
+  "incidents": [
+   {
+    "date": "2019-10-21",
+    "summary": "Vendor disclosure of a breach of a third-party datacenter server (Finland, exposed 2018) and expired TLS key; NordVPN says its network stayed safe.",
+    "sourceUrl": "https://nordvpn.com/blog/official-response-datacenter-breach/"
+   }
+  ],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://nordvpn.com/trust/"
+  },
+  "openSourceClients": false,
+  "openSourceNote": "Only the Linux app (CLI and GUI) is stated as open source; other clients not stated as open source.",
+  "openSourceSource": "https://nordvpn.com/trust/",
+  "ramOnlyServers": "all servers (vendor says all server data is stored in RAM, no traditional hard drives)",
+  "ramOnlyServersSource": "https://nordvpn.com/trust/",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 14.99,
+    "totalChargedUpfront": 14.99,
+    "note": "Basic tier, billed monthly; Complete $19.99/mo monthly",
+    "sourceUrl": "https://nordvpn.com/pricing/",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": 5.49,
+    "totalChargedUpfront": 65.88,
+    "note": "Basic tier; promo total for first 12 months; renews at $139.08/year (Complete promo $6.49/mo, Prime $9.49/mo)",
+    "sourceUrl": "https://nordvpn.com/pricing/",
+    "billedMonths": null
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": 3.49,
+    "totalChargedUpfront": 94.23,
+    "note": "Basic tier; promo $94.23 for first 27 months (2 years + 3 extra months, so per-month figure is vendor-stated); renews at $139.08/year (Complete $4.49/mo, Prime $7.49/mo)",
+    "sourceUrl": "https://nordvpn.com/pricing/",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "30-day money-back guarantee for new subscriptions (initial purchase only; renewals not eligible)",
+  "refundWindowSource": "https://support.nordvpn.com/hc/en-us/articles/19476991311121-What-is-your-money-back-policy",
+  "sources": [
+   "https://nordvpn.com/pricing/",
+   "https://nordvpn.com/trust/",
+   "https://nordvpn.com/about-us/",
+   "https://nordvpn.com/features/no-log-vpn/",
+   "https://nordvpn.com/blog/nordvpn-audit/",
+   "https://nordvpn.com/blog/nordvpn-no-logs-audit-2024/",
+   "https://nordvpn.com/blog/official-response-datacenter-breach/",
+   "https://support.nordvpn.com/hc/en-us/articles/19476991311121-What-is-your-money-back-policy"
+  ]
+ },
+ {
+  "slug": "pia",
+  "name": "Private Internet Access",
+  "checked": "2026-09-29",
+  "status": "active",
+  "website": "https://www.privateinternetaccess.com",
+  "parentCompany": "Kape Technologies (named in PIA privacy policy; Kape's RNS of 16 Dec 2019 confirms completion of its acquisition of LTMI Holdings, the company behind PIA per the announcement title 'Completion of Private Internet Access Acquisition')",
+  "parentCompanySource": "https://www.investegate.co.uk/announcement/rns/kape-technologies--kape/completion-of-private-internet-access-acquisition/5834879",
+  "ultimateOwner": "Teddy Sagi (via Kape Technologies) - per Wikipedia only, not confirmed on vendor pages",
+  "ultimateOwnerSource": "https://en.wikipedia.org/wiki/Kape_Technologies",
+  "hqJurisdiction": "United States (PIA Private Internet Access, Inc., Denver, Colorado)",
+  "hqJurisdictionSource": "https://www.privateinternetaccess.com/about-us",
+  "audits": [
+   {
+    "auditor": "Deloitte Audit Romania",
+    "date": "2025",
+    "scope": "Third ISAE 3000 (Revised) assurance audit of VPN configuration, operations, token-based dedicated IP system, incident response (blog updated 2026-02-24)",
+    "reportUrl": "https://www.privateinternetaccess.com/deloitte-privacy-policy",
+    "sourceUrl": "https://www.privateinternetaccess.com/blog/security-audit-2025/"
+   },
+   {
+    "auditor": "Deloitte",
+    "date": "2024",
+    "scope": "Second no-logs assurance audit",
+    "reportUrl": null,
+    "sourceUrl": "https://www.privateinternetaccess.com/blog/security-audit-2024"
+   },
+   {
+    "auditor": "Deloitte",
+    "date": "2022",
+    "scope": "First no-logs assurance audit",
+    "reportUrl": null,
+    "sourceUrl": "https://www.privateinternetaccess.com/blog/security-audit-2025/"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Vendor says it never records or stores online activity, connection info or metadata; cites RAM-only servers, US court proceedings, and Deloitte audits. Says the only personal information kept is the sign-up email, payment details and ZIP code (required for US tax purposes).",
+   "url": "https://www.privateinternetaccess.com/vpn-features/no-logs-vpn"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://www.privateinternetaccess.com/transparency-report"
+  },
+  "openSourceClients": true,
+  "openSourceNote": "Vendor claims 100% reviewable app source code, published on GitHub.",
+  "openSourceSource": "https://www.privateinternetaccess.com/vpn-features/open-source-vpn",
+  "ramOnlyServers": "all servers (vendor: systems run entirely on RAM-only servers)",
+  "ramOnlyServersSource": "https://www.privateinternetaccess.com/blog/security-audit-2025/",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 11.95,
+    "totalChargedUpfront": 11.95,
+    "note": "Auto-renews at $11.95 monthly",
+    "sourceUrl": "https://www.privateinternetaccess.com/pages/buy-a-vpn",
+    "offered": true,
+    "billedMonths": 1
+   },
+   {
+    "term": "12-month",
+    "currency": "USD",
+    "pricePerMonth": 3.99,
+    "totalChargedUpfront": 47.88,
+    "note": "Billed $47.88 first year then auto-renews annually at $47.88 (no promo/renewal gap stated)",
+    "sourceUrl": "https://www.privateinternetaccess.com/pages/buy-a-vpn",
+    "offered": true,
+    "billedMonths": 12
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "No 2-year plan on pricing page; a 3-year (+3 months) plan is offered at $2.03/mo, $79 every 3 years",
+    "sourceUrl": "https://www.privateinternetaccess.com/pages/buy-a-vpn",
+    "offered": false,
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "30-day money-back guarantee, new subscribers only",
+  "refundWindowSource": "https://www.privateinternetaccess.com/money-back-guarantee",
+  "sources": [
+   "https://www.privateinternetaccess.com/pages/buy-a-vpn",
+   "https://www.privateinternetaccess.com/vpn-features/no-logs-vpn",
+   "https://www.privateinternetaccess.com/blog/security-audit-2025/",
+   "https://www.privateinternetaccess.com/privacy-policy",
+   "https://www.privateinternetaccess.com/about-us",
+   "https://www.privateinternetaccess.com/transparency-report",
+   "https://www.privateinternetaccess.com/vpn-features/open-source-vpn",
+   "https://www.privateinternetaccess.com/money-back-guarantee"
+  ]
+ },
+ {
+  "slug": "privatevpn",
+  "name": "PrivateVPN",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://privatevpn.com",
+  "parentCompany": "Miss Group Holdings Ltd (reported acquirer of PrivateVPN Global AB, 13 Jun 2022; secondary source only, not confirmed on vendor pages)",
+  "parentCompanySource": "https://pitchbook.com/profiles/company/498546-10",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Sweden (PrivateVPN Global AB, reg. no. 559282-2182, Ytterby; terms under Swedish law)",
+  "hqJurisdictionSource": "https://privatevpn.com/privacy-policy/",
+  "audits": [],
+  "loggingPolicy": {
+   "claim": "States it does not collect or store logs of activity: no browsing history, traffic destination, connection timestamps, DNS queries, or allocated/connected IP addresses, or data content.",
+   "url": "https://privatevpn.com/privacy-policy/"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 9.9,
+    "totalChargedUpfront": 9.9,
+    "offered": true,
+    "note": "Incl. VAT as displayed to a US-detected visitor; currency selector SEK/USD/EUR/GBP.",
+    "sourceUrl": "https://privatevpn.com/prices/pvpndealsv",
+    "billedMonths": 1
+   },
+   {
+    "term": "36-month",
+    "currency": "USD",
+    "pricePerMonth": 2,
+    "totalChargedUpfront": 72,
+    "offered": true,
+    "note": "Displayed promo 'LIMITED OFFER 12 Months + 24 Months extra': 36 months for 72.00 USD (2.00/mo incl. VAT); page text says '72.00 USD billed every 12 months after 36 months' so renewal price appears to be 72.00 per 12 months (6.00/mo) but wording ambiguous. Plain 12-month-only price not shown. A 3-month tier (6.00/mo, 17.99 per 3 months) also exists.",
+    "sourceUrl": "https://privatevpn.com/prices/pvpndealsv",
+    "billedMonths": 36
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "No 24-month plan shown on the pricing page (tiers shown: 1, 3, 12(+24 extra) months).",
+    "sourceUrl": "https://privatevpn.com/prices/pvpndealsv",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "30 days; new customers only, cancel before end of 30th day; reason must be given; refunds processed within 5 business days",
+  "refundWindowSource": "https://privatevpn.com/money-back-guarantee/",
+  "sources": [
+   "https://privatevpn.com/privacy-policy/",
+   "https://privatevpn.com/terms-of-use/",
+   "https://privatevpn.com/prices/pvpndealsv",
+   "https://privatevpn.com/money-back-guarantee/",
+   "https://privatevpn.com/why-privatevpn/about-us/",
+   "https://pitchbook.com/profiles/company/498546-10"
+  ]
+ },
+ {
+  "slug": "proton-vpn",
+  "name": "Proton VPN",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://protonvpn.com",
+  "parentCompany": "Proton AG",
+  "parentCompanySource": "https://proton.me/legal/terms",
+  "ultimateOwner": "Proton Foundation (non-profit; primary shareholder of Proton AG)",
+  "ultimateOwnerSource": "https://protonvpn.com/about",
+  "hqJurisdiction": "Switzerland (Geneva)",
+  "hqJurisdictionSource": "https://proton.me/legal/terms",
+  "audits": [
+   {
+    "auditor": "Securitum",
+    "date": "2026",
+    "scope": "No-logs audit (fifth consecutive annual)",
+    "reportUrl": null,
+    "sourceUrl": "https://protonvpn.com/blog/no-logs-audit"
+   },
+   {
+    "auditor": "Securitum",
+    "date": "2025",
+    "scope": "No-logs audit",
+    "reportUrl": null,
+    "sourceUrl": "https://protonvpn.com/blog/no-logs-audit"
+   },
+   {
+    "auditor": "Securitum",
+    "date": "2024",
+    "scope": "No-logs audit",
+    "reportUrl": null,
+    "sourceUrl": "https://protonvpn.com/blog/no-logs-audit"
+   },
+   {
+    "auditor": "Securitum",
+    "date": "2023",
+    "scope": "No-logs audit",
+    "reportUrl": null,
+    "sourceUrl": "https://protonvpn.com/blog/no-logs-audit"
+   },
+   {
+    "auditor": "Securitum",
+    "date": "2022",
+    "scope": "No-logs audit",
+    "reportUrl": null,
+    "sourceUrl": "https://protonvpn.com/blog/no-logs-audit"
+   },
+   {
+    "auditor": "Securitum",
+    "date": "unspecified",
+    "scope": "Security audit of all Proton apps",
+    "reportUrl": null,
+    "sourceUrl": "https://protonvpn.com/blog/no-logs-audit"
+   },
+   {
+    "auditor": "Ruben Santamarta (independent researcher)",
+    "date": "2025-12",
+    "scope": "App security audits (article updated 1 Dec 2025)",
+    "reportUrl": null,
+    "sourceUrl": "https://protonvpn.com/blog/open-source"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Vendor states it keeps no logs of online activity and stores no metadata (no visited pages, session lengths or IP monitoring); verified by Securitum audits.",
+   "url": "https://protonvpn.com/features/no-logs-policy"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://protonvpn.com/blog/transparency-report"
+  },
+  "openSourceClients": true,
+  "openSourceNote": "Vendor states all Proton VPN apps are open source; GitHub repos for Android, iOS, macOS, Windows, browser extension linked.",
+  "openSourceSource": "https://protonvpn.com/blog/open-source",
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "Not retrieved: Proton pricing is JS-rendered (placeholders in static HTML). Proton Free tier exists (listed on pricing page as 'Proton Free')",
+    "sourceUrl": "https://protonvpn.com/pricing",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "Not retrieved: Proton pricing is JS-rendered (placeholders in static HTML). Proton Free tier exists (listed on pricing page as 'Proton Free')",
+    "sourceUrl": "https://protonvpn.com/pricing",
+    "billedMonths": null
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "Not retrieved: Proton pricing is JS-rendered (placeholders in static HTML). Proton Free tier exists (listed on pricing page as 'Proton Free')",
+    "sourceUrl": "https://protonvpn.com/pricing",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "30 days from initial purchase; once per user, direct purchases only",
+  "refundWindowSource": "https://proton.me/legal/terms",
+  "sources": [
+   "https://protonvpn.com/pricing",
+   "https://protonvpn.com/blog/no-logs-audit",
+   "https://protonvpn.com/features/no-logs-policy",
+   "https://protonvpn.com/blog/open-source",
+   "https://protonvpn.com/blog/transparency-report",
+   "https://protonvpn.com/about",
+   "https://proton.me/legal/terms"
+  ]
+ },
+ {
+  "slug": "purevpn",
+  "name": "PureVPN",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://www.purevpn.com/",
+  "parentCompany": "GZ Systems Private Ltd (as named in the privacy policy; Intershore Chambers, P.O. Box 4342, Road Town, Tortola, British Virgin Islands)",
+  "parentCompanySource": "https://www.purevpn.com/privacy-policy.php",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "British Virgin Islands (vendor states it moved HQ there, citing no mandatory data retention laws)",
+  "hqJurisdictionSource": "https://www.purevpn.com/about.php",
+  "audits": [
+   {
+    "auditor": "Altius IT",
+    "date": "2019",
+    "scope": "No-logs verification: browsing activity, connection logs/assigned VPN IPs, originating IPs, timestamps, DNS queries; review of infrastructure documents, configs and log files",
+    "reportUrl": null,
+    "sourceUrl": "https://proprivacy.com/privacy-news/purevpn-puts-its-no-logs-claims-to-the-test-with-independent-audit"
+   },
+   {
+    "auditor": "KPMG (named in vendor's privacy policy as 'KPMG-Audited No-Logs Network'; vendor's audit pages render the name as 'Well known audit firm')",
+    "date": null,
+    "scope": "Second no-logs audit, 'always-on' arrangement permitting surprise audits. Date conflict: vendor blog carries an 'Update - October 24, 2020' note about a second audit; XDA article about the KPMG audit dated 2021-08-16. Not resolved.",
+    "reportUrl": null,
+    "sourceUrl": "https://www.xda-developers.com/purevpn-kpmg-audit/"
+   },
+   {
+    "auditor": "Not named on the assessment page (vendor's privacy policy refers to a 'KPMG-Audited No-Logs Network'; vendor blog URL suggests KPMG validated the claims, not read)",
+    "date": "2023-02-16/2023-02-22 (fieldwork); post-assessment validation March-April 2023",
+    "scope": "Assessment of VPN infrastructure compliance with the privacy policy, per vendor's no-log assessment page",
+    "reportUrl": null,
+    "sourceUrl": "https://www.purevpn.com/no-log-assessment"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Vendor says it does not keep any logs that can identify or help monitor a user's activity, and stores no activity/usage logs, so it would have nothing to share even if compelled.",
+   "url": "https://www.purevpn.com/privacy-policy.php"
+  },
+  "incidents": [
+   {
+    "date": "2017-10-06",
+    "summary": "FBI criminal complaint against Ryan Lin (arrest announced Oct 2017) said PureVPN records let investigators determine one customer accessed the service from two originating IPs; reported by The Register as at odds with PureVPN's no-logs claim. Sources report PureVPN later changed its policy (per ProPrivacy, moved to zero-logs in 2018).",
+    "sourceUrl": "https://www.theregister.com/2017/10/08/vpn_logs_helped_unmask_alleged_net_stalker_say_feds"
+   }
+  ],
+  "transparencyReport": {
+   "published": null,
+   "url": "https://www.purevpn.com/no-log-assessment"
+  },
+  "openSourceClients": null,
+  "openSourceNote": "Not verified; no open-source claim found on pages read.",
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 12.95,
+    "totalChargedUpfront": 12.95,
+    "offered": true,
+    "note": "Standard tier, 'No Discount' tab. Plus is $15.95/mo and Max $19.95/mo. Renewal prices not stated on the page.",
+    "sourceUrl": "https://www.purevpn.com/pricing",
+    "billedMonths": 1
+   },
+   {
+    "term": "12-month",
+    "currency": "USD",
+    "pricePerMonth": 2.55,
+    "totalChargedUpfront": 47.95,
+    "offered": true,
+    "note": "Standard tier promo shown as $2.55/mo (80% off list $12.95); '$47.95 on purchase' vs $143.40 struck through; term length billed for $47.95 not confirmed. Plus $4.55/mo ($69.95), Max $5.55/mo ($84.95). Renewal price not stated. Billing period: the vendor's cart plan definition for 'Standard plan yearly' has a 12-month interval; note $47.95/12 = 4.00/mo, which does not equal the displayed $2.55/mo, so the displayed monthly figure is not reproducible from the billed amount (unresolved; see GAPS).",
+    "sourceUrl": "https://www.purevpn.com/pricing",
+    "billedMonths": 12
+   },
+   {
+    "term": "27-month",
+    "currency": "USD",
+    "pricePerMonth": 2.15,
+    "totalChargedUpfront": 57.95,
+    "offered": true,
+    "note": "Standard tier promo '83% off + 3 extra months': $2.15/mo, $57.95 on purchase vs $322.65 struck through (so upfront likely covers 27 months; not stated explicitly). Plus $2.73/mo ($89.95), Max $3.55/mo ($109.95). Renewal price not stated.",
+    "sourceUrl": "https://www.purevpn.com/pricing",
+    "billedMonths": 27
+   }
+  ],
+  "refundWindow": "31 days from initial purchase; does not apply to renewal payments",
+  "refundWindowSource": "https://www.purevpn.com/refund-policy.php",
+  "sources": [
+   "https://www.purevpn.com/pricing",
+   "https://www.purevpn.com/privacy-policy.php",
+   "https://www.purevpn.com/refund-policy.php",
+   "https://www.purevpn.com/about.php",
+   "https://www.purevpn.com/no-log-assessment",
+   "https://www.purevpn.com/blog/kpmg-validates-purevpn-no-log-claims/",
+   "https://www.theregister.com/2017/10/08/vpn_logs_helped_unmask_alleged_net_stalker_say_feds",
+   "https://proprivacy.com/privacy-news/purevpn-puts-its-no-logs-claims-to-the-test-with-independent-audit",
+   "https://www.xda-developers.com/purevpn-kpmg-audit/"
+  ]
+ },
+ {
+  "slug": "strongvpn",
+  "name": "StrongVPN",
+  "checked": "2026-09-29",
+  "status": "active",
+  "website": "https://strongvpn.com",
+  "parentCompany": "J2 Global / Ziff Davis (per Wikipedia J2 Global article, secondary source; not verified against Ziff Davis filings)",
+  "parentCompanySource": "https://en.wikipedia.org/wiki/J2_Global",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": null,
+  "hqJurisdictionSource": null,
+  "audits": [],
+  "loggingPolicy": {
+   "claim": null,
+   "url": null
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 11.99,
+    "totalChargedUpfront": 11.99,
+    "offered": true,
+    "note": "Monthly plan as displayed on the vendor plans page; no money-back guarantee (the page limits it to the annual plan).",
+    "sourceUrl": "https://strongvpn.com/plans/",
+    "billedMonths": 1
+   },
+   {
+    "term": "12-month",
+    "currency": "USD",
+    "pricePerMonth": 3.97,
+    "totalChargedUpfront": 47.69,
+    "offered": true,
+    "note": "Annual plan, billed $47.69 for the first year; the page does not state the renewal price.",
+    "sourceUrl": "https://strongvpn.com/plans/",
+    "billedMonths": 12
+   }
+  ],
+  "refundWindow": "30-day money-back guarantee (annual plan only)",
+  "refundWindowSource": "https://strongvpn.com/plans/",
+  "sources": [
+   "https://en.wikipedia.org/wiki/J2_Global"
+  ]
+ },
+ {
+  "slug": "surfshark",
+  "name": "Surfshark",
+  "checked": "2026-09-29",
+  "status": "active",
+  "website": "https://surfshark.com",
+  "parentCompany": "Surfshark B.V.; in 2022 merged with Nord Security under one holding company (operating independently)",
+  "parentCompanySource": "https://surfshark.com/about-us",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Netherlands (Surfshark B.V., Amsterdam)",
+  "hqJurisdictionSource": "https://surfshark.com/about-us",
+  "audits": [
+   {
+    "auditor": "Deloitte",
+    "date": "2025",
+    "scope": "No-logs assurance report (full report only in Surfshark account)",
+    "reportUrl": null,
+    "sourceUrl": "https://surfshark.com/trust-center"
+   },
+   {
+    "auditor": "Deloitte",
+    "date": "2023",
+    "scope": "No-logs assurance report (full report only in Surfshark account)",
+    "reportUrl": null,
+    "sourceUrl": "https://surfshark.com/trust-center"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2026",
+    "scope": "Infrastructure and new Dausos protocol (report-to-year mapping inferred from page order)",
+    "reportUrl": "https://surfshark.com/media/NOR-29-summary.pdf",
+    "sourceUrl": "https://surfshark.com/trust-center"
+   },
+   {
+    "auditor": "SecuRing",
+    "date": "2025-12",
+    "scope": "Network infrastructure audit",
+    "reportUrl": "https://surfshark.com/media/SurfShark-InfrastructureTestReport_20251217_Public.pdf",
+    "sourceUrl": "https://surfshark.com/trust-center"
+   },
+   {
+    "auditor": "SecuRing",
+    "date": "2025",
+    "scope": "Web, desktop, mobile apps and browser plugins security assessment (attestation letter dated 2025-06-09 in filename)",
+    "reportUrl": "https://surfshark.com/media/attestation_letter_20250609-sig.pdf",
+    "sourceUrl": "https://surfshark.com/trust-center"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2021",
+    "scope": "Infrastructure",
+    "reportUrl": "https://surfshark.com/wp-content/uploads/2021/05/SRF-02-summary.pdf",
+    "sourceUrl": "https://surfshark.com/trust-center"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2018",
+    "scope": "Browser extensions",
+    "reportUrl": "https://cure53.de/pentest-report_surfshark.pdf",
+    "sourceUrl": "https://surfshark.com/trust-center"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Vendor says it keeps its VPN logs-free: no visited IPs, browsing history, session info, connection timestamps, bandwidth or traffic; some connection data is deleted within 15 minutes after a session ends.",
+   "url": "https://surfshark.com/privacy"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://surfshark.com/transparency-report"
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": "all servers (vendor states 100% RAM-only)",
+  "ramOnlyServersSource": "https://surfshark.com/trust-center",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD or EUR (not retrieved)",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "Not retrieved: only 24-month tab in static HTML",
+    "sourceUrl": "https://surfshark.com/pricing",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (not verified)",
+    "currency": "USD or EUR (not retrieved)",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "note": "Not retrieved: only 24-month tab in static HTML",
+    "sourceUrl": "https://surfshark.com/pricing",
+    "billedMonths": null
+   },
+   {
+    "term": "27-month",
+    "currency": "USD",
+    "pricePerMonth": 2.49,
+    "totalChargedUpfront": 67.23,
+    "note": "USD price list, read 2026-09-29 (a US-dollar copy of the pricing page): Starter $2.49/mo, $67.23 for the first 27 months (24 + 3 extra); One $2.79/mo, $75.33; One+ $4.49/mo, $121.23. Renewal price not stated on the page. The same page read directly on 2026-09-29 showed the same numerals in EUR (next row); the vendor notes pricing varies with currency.",
+    "sourceUrl": "https://surfshark.com/pricing",
+    "offered": true,
+    "billedMonths": 27
+   },
+   {
+    "term": "27-month",
+    "currency": "EUR",
+    "pricePerMonth": 2.49,
+    "totalChargedUpfront": 67.23,
+    "note": "EUR price list, read 2026-09-29 (page states no currency selector; shown as euro): Starter EUR 2.49/mo, EUR 67.23 for the first 27 months; One EUR 2.79/mo, EUR 75.33; One+ EUR 4.49/mo, EUR 121.23. Renewal price not stated.",
+    "sourceUrl": "https://surfshark.com/pricing",
+    "offered": true,
+    "billedMonths": 27
+   }
+  ],
+  "refundWindow": "30-day money-back guarantee from initial purchase (exclusions for some resellers, prepaid cards, add-ons)",
+  "refundWindowSource": "https://surfshark.com/terms-of-service",
+  "sources": [
+   "https://surfshark.com/pricing",
+   "https://surfshark.com/trust-center",
+   "https://surfshark.com/about-us",
+   "https://surfshark.com/privacy",
+   "https://surfshark.com/terms-of-service",
+   "https://surfshark.com/transparency-report"
+  ]
+ },
+ {
+  "slug": "trust-zone",
+  "name": "Trust.Zone",
+  "checked": "2026-09-28",
+  "status": "active",
+  "website": "https://trust.zone",
+  "parentCompany": "Internet Privacy Ltd (operator; no higher parent stated). Tersys Group OU (Estonia) acts only as authorized payment distributor.",
+  "parentCompanySource": "https://trust.zone/terms",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Seychelles (operator address Victoria, Mahe; terms governed by Seychelles law)",
+  "hqJurisdictionSource": "https://trust.zone/terms",
+  "audits": [],
+  "loggingPolicy": {
+   "claim": "States its VPN servers do not store any log files and that, having no connection logs, it could not associate a request with a customer even if compelled.",
+   "url": "https://trust.zone/privacy"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": false,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": "Not verified. Site publishes a daily warrant canary (not a transparency report): https://trust.zone/canary",
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 9.99,
+    "totalChargedUpfront": 9.99,
+    "offered": true,
+    "note": "Shown as '1 month + 1 month' promo tier, 3 simultaneous connections; billed monthly.",
+    "sourceUrl": "https://trust.zone/prices",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (billing period not verified)",
+    "currency": "USD",
+    "pricePerMonth": 3.33,
+    "totalChargedUpfront": 39.99,
+    "offered": true,
+    "note": "Promo shown as '1 year + 1 year' (bonus term), struck-through list $119.88; 3.33/mo computed by vendor on the 12 paid months; renewal price not stated on page. Site also advertises time-limited '6 months FREE with code EXTRA'. billedMonths null: page's 'X years + X years' bonus wording makes the billed period ambiguous; pricePerMonth is the vendor's figure.",
+    "sourceUrl": "https://trust.zone/prices",
+    "billedMonths": null
+   },
+   {
+    "term": "2-year (billing period not verified)",
+    "currency": "USD",
+    "pricePerMonth": 2.33,
+    "totalChargedUpfront": 55.99,
+    "offered": true,
+    "note": "Promo shown as '2 years + 2 years', struck-through list $239.76; 5 simultaneous connections; renewal price not stated on page. billedMonths null: page's 'X years + X years' bonus wording makes the billed period ambiguous; pricePerMonth is the vendor's figure.",
+    "sourceUrl": "https://trust.zone/prices",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "10-day money-back guarantee on first paid subscription bought directly on trust.zone; written request within 10 days of purchase",
+  "refundWindowSource": "https://trust.zone/terms",
+  "sources": [
+   "https://trust.zone/terms",
+   "https://trust.zone/privacy",
+   "https://trust.zone/prices",
+   "https://trust.zone/canary",
+   "https://trust.zone/"
+  ]
+ },
+ {
+  "name": "TunnelBear",
+  "status": "active",
+  "website": "https://www.tunnelbear.com",
+  "parentCompany": "McAfee (acquired TunnelBear in 2018; operating entity TunnelBear LLC)",
+  "parentCompanySource": "https://techcrunch.com/2018/03/08/mcafee-acquires-vpn-company-tunnelbear/",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Canada (Toronto)",
+  "hqJurisdictionSource": "https://www.tunnelbear.com/about",
+  "audits": [
+   {
+    "auditor": "Cure53",
+    "date": "2017-08-07",
+    "scope": "First public consumer VPN audit (blog date)",
+    "reportUrl": "https://cure53.de/summary-report_tunnelbear.pdf",
+    "sourceUrl": "https://www.tunnelbear.com/blog/tunnelbear_public_security_audit/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2018-10-23",
+    "scope": "2nd annual audit (blog date)",
+    "reportUrl": "https://cure53.de/summary-report_tunnelbear_2018.pdf",
+    "sourceUrl": "https://www.tunnelbear.com/blog/tunnelbear-completes-2nd-annual-independent-security-audit/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2020-01-28",
+    "scope": "3rd annual audit (blog date)",
+    "reportUrl": "https://cure53.de/summary-report_tunnelbear_2019.pdf",
+    "sourceUrl": "https://www.tunnelbear.com/blog/tunnelbear-completes-3rd-annual-independent-public-security-audit/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2021-05-31",
+    "scope": "4th annual audit (blog date)",
+    "reportUrl": "https://cure53.de/pentest-report_tunnelbear_2020.pdf",
+    "sourceUrl": "https://www.tunnelbear.com/blog/tunnelbears-annual-security-audit-results-for-2020/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-07-08",
+    "scope": "5th annual audit (blog date)",
+    "reportUrl": "https://cure53.de/pentest-report_tunnelbear_2021.pdf",
+    "sourceUrl": "https://www.tunnelbear.com/blog/tunnelbear-completes-5th-annual-independant/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2023-05-19",
+    "scope": "6th annual audit (blog date)",
+    "reportUrl": "https://cure53.de/pentest-report_tunnelbear_2022.pdf",
+    "sourceUrl": "https://www.tunnelbear.com/blog/tunnelbear-completes-6th-annual-independent-security-audit/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2024-02-14",
+    "scope": "7th annual audit, 2023 work Oct-Dec: apps, website, VPN infrastructure, backend (43 days)",
+    "reportUrl": "https://cure53.de/pentest-report_tunnelbear_2023.pdf",
+    "sourceUrl": "https://www.tunnelbear.com/blog/tunnelbear-completes-7th-annual-independent-security-audit/"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2025-11-24",
+    "scope": "8th annual audit, 2024 work Oct-Nov: apps, backend, APIs, data handling (44 days); report link not on post",
+    "reportUrl": null,
+    "sourceUrl": "https://www.tunnelbear.com/blog/tunnelbear-completes-8th-annual-independent-security-audit/"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "TunnelBear says it collects only minimal operational data and keeps no login timestamps or logs of user activity.",
+   "url": "https://www.tunnelbear.com/privacy-policy"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [],
+  "refundWindow": "30-day money-back guarantee, first year of annual subscriptions bought directly from tunnelbear.com; otherwise non-refundable except at TunnelBear's discretion",
+  "refundWindowSource": "https://www.tunnelbear.com/terms-of-service",
+  "sources": [
+   "https://www.tunnelbear.com/about",
+   "https://www.tunnelbear.com/pricing",
+   "https://www.tunnelbear.com/terms-of-service",
+   "https://www.tunnelbear.com/privacy-policy",
+   "https://techcrunch.com/2018/03/08/mcafee-acquires-vpn-company-tunnelbear/",
+   "https://www.tunnelbear.com/blog/tunnelbear-completes-8th-annual-independent-security-audit/"
+  ],
+  "slug": "tunnelbear",
+  "checked": "2026-09-28"
+ },
+ {
+  "name": "VyprVPN",
+  "status": "active",
+  "website": "https://www.vyprvpn.com",
+  "parentCompany": "Certida LLC",
+  "parentCompanySource": "https://certida.com/",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "United States (Austin, Texas; Certida LLC address)",
+  "hqJurisdictionSource": "https://certida.com/",
+  "audits": [
+   {
+    "auditor": "Leviathan Security Group",
+    "date": null,
+    "scope": "No-log assessment of VyprVPN service (interviews, config review, test traffic, production endpoint); found kill-switch API logs containing user IPs, later remediated per Golden Frog",
+    "reportUrl": "https://www.goldenfrog.com/vyprvpn/audit.pdf",
+    "sourceUrl": "https://www.vyprvpn.com/blog/post/no-log-vpn-service"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Golden Frog's policy says VyprVPN is zero-log: it does not record or retain data when the service is used, including assigned IP, connection times or traffic (policy dated March 2021).",
+   "url": "https://www.goldenfrog.com/privacy"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [],
+  "refundWindow": "30-day money-back guarantee for annual and monthly subscriptions, if cancelled within 30 days of first payment (Golden Frog terms; current Certida terms not readable)",
+  "refundWindowSource": "https://www.goldenfrog.com/terms-of-service",
+  "sources": [
+   "https://certida.com/",
+   "https://www.goldenfrog.com/privacy",
+   "https://www.goldenfrog.com/terms-of-service",
+   "https://www.vyprvpn.com/blog/post/no-log-vpn-service",
+   "https://www.goldenfrog.com/vyprvpn/audit.pdf"
+  ],
+  "slug": "vyprvpn",
+  "checked": "2026-09-28"
+ },
+ {
+  "name": "Windscribe",
+  "status": "active",
+  "website": "https://windscribe.com",
+  "parentCompany": "Windscribe Limited",
+  "parentCompanySource": "https://windscribe.com/terms",
+  "ultimateOwner": null,
+  "ultimateOwnerSource": null,
+  "hqJurisdiction": "Canada (Ontario)",
+  "hqJurisdictionSource": "https://windscribe.com/terms",
+  "audits": [
+   {
+    "auditor": "Leviathan Security Group",
+    "date": "2021-09",
+    "scope": "Desktop app code audit",
+    "reportUrl": "https://github.com/Windscribe/Desktop-App/wiki/Code-Audit-Report",
+    "sourceUrl": "https://windscribe.com/knowledge-base/articles/has-windscribe-been-audited"
+   },
+   {
+    "auditor": "Leviathan Security Group",
+    "date": "2022-03",
+    "scope": "Android and iOS apps",
+    "reportUrl": "https://github.com/Windscribe/Android-App/wiki/Code-Audit-Report",
+    "sourceUrl": "https://windscribe.com/knowledge-base/articles/has-windscribe-been-audited"
+   },
+   {
+    "auditor": "Cure53",
+    "date": "2022-12-11",
+    "scope": "Windscribe stack audit (date from report filename; superseded by 2024 audit per Windscribe)",
+    "reportUrl": "https://windscribe.com/blog/content/files/2024/07/2022-12-11---Windscribe---Cure53.pdf",
+    "sourceUrl": "https://windscribe.com/blog/freshscribe-next-generation-vpn-infrastructure-2/"
+   },
+   {
+    "auditor": "Packetlabs",
+    "date": "2024-06",
+    "scope": "FreshScribe VPN stack (provisioning, RAM-disk VPN servers, micro-services)",
+    "reportUrl": null,
+    "sourceUrl": "https://windscribe.com/knowledge-base/articles/has-windscribe-been-audited"
+   }
+  ],
+  "loggingPolicy": {
+   "claim": "Windscribe says it keeps no identifying logs: no historical record of who used which IP, only limited non-identifying data (last-used date, 30-day bandwidth total).",
+   "url": "https://windscribe.com/privacy"
+  },
+  "incidents": [
+   {
+    "date": "2021-07",
+    "summary": "Two servers seized by Ukrainian authorities; Windscribe says no user data was exposed but an OpenVPN CA key was exposed because servers were not encrypted at rest; led to FreshScribe rebuild.",
+    "sourceUrl": "https://windscribe.com/features/no-identifying-logs"
+   },
+   {
+    "date": "2025-04-11",
+    "summary": "Legal case in Greece against Windscribe's CEO over a Finland server IP was dismissed; no user data was handed over.",
+    "sourceUrl": "https://windscribe.com/blog/windscribe-greek-court-case/"
+   },
+   {
+    "date": "2026-02",
+    "summary": "Dutch authorities physically seized a Windscribe server; per Windscribe it ran RAM-only and held no data.",
+    "sourceUrl": "https://windscribe.com/features/no-identifying-logs"
+   }
+  ],
+  "transparencyReport": {
+   "published": true,
+   "url": "https://windscribe.com/transparency"
+  },
+  "openSourceClients": true,
+  "openSourceNote": "Windscribe says all its apps (desktop, Android, browser extension) are open source; GitHub org Windscribe. Repos not individually checked.",
+  "openSourceSource": "https://windscribe.com/about",
+  "ramOnlyServers": "all servers (Windscribe says entire infrastructure runs RAM-only)",
+  "ramOnlyServersSource": "https://windscribe.com/features/no-identifying-logs",
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": 9,
+    "totalChargedUpfront": 9,
+    "offered": true,
+    "note": "Pro monthly plan, auto-renews; no promo shown on the page fetched.",
+    "sourceUrl": "https://windscribe.com/upgrade",
+    "billedMonths": 1
+   },
+   {
+    "term": "12-month",
+    "currency": "USD",
+    "pricePerMonth": 5.75,
+    "totalChargedUpfront": 69,
+    "offered": true,
+    "note": "Pro yearly plan billed $69 every 12 months.",
+    "sourceUrl": "https://windscribe.com/upgrade",
+    "billedMonths": 12
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "Upgrade page lists only monthly, yearly and build-a-plan.",
+    "sourceUrl": "https://windscribe.com/upgrade",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": "Initial payment refundable if requested within 7 business days (TL;DR says 7 days) of subscription start and usage under 10 GB",
+  "refundWindowSource": "https://windscribe.com/terms",
+  "sources": [
+   "https://windscribe.com/terms",
+   "https://windscribe.com/privacy",
+   "https://windscribe.com/about",
+   "https://windscribe.com/upgrade",
+   "https://windscribe.com/transparency",
+   "https://windscribe.com/knowledge-base/articles/has-windscribe-been-audited",
+   "https://windscribe.com/blog/freshscribe-next-generation-vpn-infrastructure-2/",
+   "https://windscribe.com/features/no-identifying-logs",
+   "https://windscribe.com/blog/windscribe-greek-court-case/"
+  ],
+  "slug": "windscribe",
+  "checked": "2026-09-28"
+ },
+ {
+  "slug": "zenmate",
+  "name": "ZenMate",
+  "checked": "2026-09-28",
+  "status": "acquired-rebranded",
+  "website": "https://www.zenmate.com/",
+  "parentCompany": "Kape Technologies Plc (100% share acquisition of ZenGuard GmbH announced 2018-10-16)",
+  "parentCompanySource": "https://www.prnewswire.com/news-releases/zenmate-acquired-by-kape-technologies-300731900.html",
+  "ultimateOwner": "Teddy Sagi via Unikmind Group (Kape takeover by Unikmind agreed Jan 2023 at 285p/share; Sagi already held about 55%). Completion of the take-private not separately verified.",
+  "ultimateOwnerSource": "https://www.techmonitor.ai/digital-economy/kape-technologies-unikmind-digital-privacy",
+  "hqJurisdiction": "Germany (operating entity ZenGuard GmbH, Amtsgericht Berlin-Charlottenburg HRB 151355 B; imprint lists Carlstrasse 50, 52531 Uebach-Palenberg)",
+  "hqJurisdictionSource": "https://www.zenmate.com/imprint",
+  "audits": [],
+  "loggingPolicy": {
+   "claim": "Site homepage advertises a 'strict no-logs policy'; full privacy policy not read.",
+   "url": "https://www.zenmate.com/"
+  },
+  "incidents": [],
+  "transparencyReport": {
+   "published": null,
+   "url": null
+  },
+  "openSourceClients": null,
+  "openSourceNote": null,
+  "openSourceSource": null,
+  "ramOnlyServers": null,
+  "ramOnlyServersSource": null,
+  "plans": [
+   {
+    "term": "1-month",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "New ZenMate sign-ups ceased 2023-03-16 per vendor announcement; no prices published.",
+    "sourceUrl": "https://zenmate.com/blog/zenmate-changes",
+    "billedMonths": 1
+   },
+   {
+    "term": "1-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "As above.",
+    "sourceUrl": "https://zenmate.com/blog/zenmate-changes",
+    "billedMonths": null
+   },
+   {
+    "term": "2-year (not verified)",
+    "currency": "USD",
+    "pricePerMonth": null,
+    "totalChargedUpfront": null,
+    "offered": false,
+    "note": "As above.",
+    "sourceUrl": "https://zenmate.com/blog/zenmate-changes",
+    "billedMonths": null
+   }
+  ],
+  "refundWindow": null,
+  "refundWindowSource": null,
+  "sources": [
+   "https://zenmate.com/blog/zenmate-changes",
+   "https://www.zenmate.com/",
+   "https://www.zenmate.com/imprint",
+   "https://www.prnewswire.com/news-releases/zenmate-acquired-by-kape-technologies-300731900.html",
+   "https://www.techmonitor.ai/digital-economy/kape-technologies-unikmind-digital-privacy"
+  ]
+ }
+]

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and link to the canonical page."
+type: dataset
+title: "VPN Ownership and Audit Register"
+version: "2026-09-29"
+date-released: "2026-09-29"
+license: CC-BY-4.0
+url: "https://vpninfobase.com/vpn-audit-register/"
+abstract: "Owner, headquarters jurisdiction, independent audits, incidents, logging-policy claims, RAM-only and open-source statements, transparency reports and price per month by billed term for 22 VPN providers. Every field links to the page it came from and carries the date it was checked. Logging and RAM-only entries are vendor claims; an audit is what tests a claim. Empty means not found in the sources read, never a guess."
+keywords:
+  - "VPN"
+  - "VPN audits"
+  - "VPN ownership"
+  - "no-logs audit"
+  - "VPN jurisdiction"
+authors:
+  - name: "VPNInfobase editorial"
+    website: "https://vpninfobase.com/"
